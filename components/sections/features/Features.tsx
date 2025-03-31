@@ -17,7 +17,7 @@ export const Features = () => {
           <div className="grid md:grid-cols-3 gap-4">
             <div className="col-span-1 relative h-[600px] rounded-xl overflow-hidden">
               <Image
-                src="/images/pic-10.jpg"
+                src="/pic-10.jpg"
                 alt="Member"
                 width={320} 
                 height={450}
@@ -38,7 +38,7 @@ export const Features = () => {
                   </div>
                   <ul className="h-0 translate-y-3 my-4 group-hover:translate-y-0 group-hover:h-full duration-300">
                     <li className="text-sub-title">
-                      4 years in tourism Industry
+                       4 years in tourism Industry
                     </li>
                     <li className="text-sub-title">
                       4 years in tourism Industry
@@ -52,7 +52,7 @@ export const Features = () => {
             </div>
             <div className="col-span-1 relative h-[600px] rounded-xl overflow-hidden">
               <Image
-                src="/images/pic-11.jpg"
+                src="/pic-11.jpg"
                 alt="Member"
                 width={320} 
                 height={450}
@@ -84,7 +84,7 @@ export const Features = () => {
             </div>
             <div className="col-span-1 relative h-[600px] rounded-xl overflow-hidden">
               <Image
-                src="/images/pic-209.jpg"
+                src="/pic-209.jpg"
                 alt="Member"
                 width={320} 
                 height={450}
