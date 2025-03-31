@@ -38,13 +38,13 @@ export const Features = () => {
                   </div>
                   <ul className="h-0 translate-y-3 my-4 group-hover:translate-y-0 group-hover:h-full duration-300">
                     <li className="text-sub-title">
-                      4 year's in tourism Industry
+                      4 years in tourism Industry
                     </li>
                     <li className="text-sub-title">
-                      4 year's in tourism Industry
+                      4 years in tourism Industry
                     </li>
                     <li className="text-sub-title">
-                      4 year's in tourism Industry
+                      4 years in tourism Industry
                     </li>
                   </ul>
                 </div>
