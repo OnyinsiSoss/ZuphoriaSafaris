@@ -13,7 +13,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const PricingPage = () => {
-  const [recommended, setRecommended] = useState<boolean>(true);
+  const [recommended, ] = useState<boolean>(true);
 
   return (
     <Section className="bg-white">
