@@ -2,7 +2,6 @@ import { Button, Heading } from "@/components/elements";
 import { Container, Section } from "@/components/layouts";
 import Image from "next/image";
 // import Image from "next/image";
-// import Marquee from "react-fast-marquee";
 
 const Hero = () => {
   return (
