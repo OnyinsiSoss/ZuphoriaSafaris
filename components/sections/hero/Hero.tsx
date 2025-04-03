@@ -9,7 +9,7 @@ const Hero = () => {
       <Container >
         <div className="grid  grid-rows-1 xl:grid-rows-2">
           <Image
-            src="images/157.JPG"
+            src="/images/157.JPG"
             alt="Member"
             fill
             sizes="100vw"

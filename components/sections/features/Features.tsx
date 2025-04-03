@@ -15,17 +15,17 @@ export const Features = () => {
             </Heading>
           </div>
           <div className="grid md:grid-cols-3 gap-4">
-            <div className="col-span-1 relative h-[600px] rounded-xl overflow-hidden">
+            <div className="relative group   col-span-1  h-[600px] rounded-xl overflow-hidden">
               <Image
-                src="images/Pic-10.JPG"
+                src="/images/Pic-10.JPG"
                 alt="Member"
                 width={320} 
                 height={450}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute group bottom-2 overflow-hidden px-2  backdrop-blur-2xl w-full">
-                <div className="bg-primary-300 flex-col group-hover:h-[240px] min-h-10 h-0 duration-300 px-6 py-2  flex justify-between rounded-xl">
-                  <div className="flex justify-between items-center">
+              <div className=" absolute group bottom-2 overflow-hidden  backdrop-blur-2xl w-full">
+                <div className="flex justify-between items-center">
+                 <div className="bg-primary-300 flex-col group-hover:h-[240px] min-h-10 h-0 duration-300 px-6 py-2  flex justify-between rounded-xl">                  
                     <Heading
                       as="h2"
                       className="text-3xl font-semibold leading-none text-emerald-900"
@@ -50,16 +50,17 @@ export const Features = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-1 relative h-[600px] rounded-xl overflow-hidden">
+            <div className="group col-span-1 relative h-[600px] rounded-xl overflow-hidden">
               <Image
-                src="images/Pic-11.JPG"
+                src="/images/Pic-11.JPG"
                 alt="Member"
                 width={320} 
                 height={450}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute group bottom-2 overflow-hidden px-2  backdrop-blur-2xl w-full">
-                <div className="bg-primary-300 flex-col group-hover:h-[240px] min-h-10 h-0 duration-300 px-6 py-2  flex justify-between rounded-xl">
+              <div className="absolute group top-2 overflow-hidden px-2  w-full">
+               <div className="flex justify-between items-center">
+                <div className="bg-primary-300 flex-col group-hover:h-[240px]  min-h-60 h-0 duration-300 px-6 py-2  flex justify-between rounded-xl">
                   <div className="flex justify-between items-center">
                     <Heading
                       as="h4"
@@ -71,7 +72,7 @@ export const Features = () => {
                     Learn More
                     </Link>
                   </div>
-                  <ul className="h-0 translate-y-3 my-4 group-hover:translate-y-0 group-hover:h-full duration-300">
+                  <ul className="h-0 translate-y-3 my-4 group-hover:translate-y-0 backdrop-blur-2xl group-hover:h-full duration-300">
                     <li className="text-sub-title">
                       4 year in Tourism Industry
                     </li>
@@ -79,12 +80,14 @@ export const Features = () => {
                       4 year in Tourism Industry
                     </li>
                   </ul>
+                                  </div>
+
                 </div>
               </div>
             </div>
             <div className="col-span-1 relative h-[600px] rounded-xl overflow-hidden">
               <Image
-                src="images/Pic-209.JPG"
+                src="/images/Pic-209.JPG"
                 alt="Member"
                 width={320} 
                 height={450}

@@ -55,7 +55,10 @@ export const Header = () => {
                 </li>
               );
             })}
+            <Link rel="stylesheet" href="/contacts" > 
             <Button variant="secondary" className="p-px uppercase"> Get in touch</Button>
+            </Link>
+            
           </nav>
         </div>
 

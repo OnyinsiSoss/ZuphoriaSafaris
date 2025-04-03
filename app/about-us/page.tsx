@@ -18,12 +18,12 @@ const AboutUs = () => {
           <div style={{ height:"100vh", zIndex:-40 , background:'linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .51802), rgba(0, 0, 0, .3))'}}>
                 <Image
                   alt="about-us"
-                  src="/images/pic-31.jpg"
+                  src="/images/pic-15.JPG"
                   quality={100}
                   fill
                   sizes="100vw"
                   style={{
-                      objectFit: 'cover', position:"absolute" , zIndex:-50 ,
+                      objectFit:'cover', position:"absolute" , zIndex:-50 ,
                       }}
                 />  
             <div className="flex flex-col justify-center items-center h-full " >
@@ -154,16 +154,17 @@ const AboutUs = () => {
                  
                 </div>
           </Section>
-      <Section className="bg-white">
-        <Container>
+
+ <Section className="bg-emerald-900 ">
+        <Container className="m-auto px-38">
           <Heading
             as="h2"
-            className="text-section leading-none capitalize mb-24"
+            className="text-emerald-200 text-3xl leading-none capitalize mb-24"
           >
             our work philosophy
           </Heading>
           <div className="grid gap-4 sticky">
-            <div className="grid md:grid-cols-2 py-12 bg-primary-300 p-4 rounded-3xl">
+            <div className="grid md:grid-cols-2 py-12 bg-lime-300 p-4 rounded-3xl">
               <div>
                 <span>Culture</span>
                 <Heading as="h4" className="text-features leading-none">
@@ -177,7 +178,7 @@ const AboutUs = () => {
                 voluptatum? Nobis at omnis eos temporibus.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 py-12 bg-primary-300 p-4 rounded-3xl">
+            <div className="grid md:grid-cols-2 py-12 bg-lime-300 p-4 rounded-3xl">
               <div>
                 <span>Culture</span>
                 <Heading as="h4" className="text-features leading-none">
@@ -191,7 +192,7 @@ const AboutUs = () => {
                 voluptatum? Nobis at omnis eos temporibus.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 py-12 bg-primary-300 p-4 rounded-3xl">
+            <div className="grid md:grid-cols-2 py-12 bg-lime-300 p-4 rounded-3xl">
               <div>
                 <span>Culture</span>
                 <Heading as="h4" className="text-features leading-none">
@@ -205,7 +206,7 @@ const AboutUs = () => {
                 voluptatum? Nobis at omnis eos temporibus.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 py-12 bg-primary-300 p-4 rounded-3xl">
+            <div className="grid md:grid-cols-2 py-12 bg-lime-300 p-4 rounded-3xl">
               <div>
                 <span>Culture</span>
                 <Heading as="h4" className="text-features leading-none">
@@ -222,9 +223,7 @@ const AboutUs = () => {
           </div>
         </Container>
       </Section>
-      <div className="">
-        <NewLetter />
-      </div>
+      
       <Section className="bg-white">
         <Container className="m-auto">
           <Heading
@@ -508,6 +507,9 @@ const AboutUs = () => {
           </div>
         </Container>
       </Section>
+            <div className="">
+        <NewLetter />
+      </div>
     </React.Fragment>
   );
 };

@@ -1,7 +1,8 @@
 {
-    "editor.fontSize": 24,
+    "editor.fontSize": 16,
     "editor.wordWrap": "on",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "reactSnippets.settings.prettierEnabled": true
+    "reactSnippets.settings.prettierEnabled": true,
+    "files.autoSave": "afterDelay"
 }

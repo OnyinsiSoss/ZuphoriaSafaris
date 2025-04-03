@@ -1,11 +1,30 @@
-import { Container, Heading, Section } from "@/components";
+import { Container, Heading, } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
 
 const BlogPage = () => {
   return (
-    <Section className="bg-secondary-950">
-      <Container>
+    <div className="bg-secondary-950">
+              <div className="" >          
+                <div style={{ height:"100vh", zIndex:-40 , background:'linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .51802), rgba(0, 0, 0, .3))'}}>
+                      <Image
+                        alt="about-us"
+                        src="/images/pic-31.jpg"
+                        quality={100}
+                        fill
+                        sizes="100vw"
+                        style={{
+                            objectFit: 'cover', position:"absolute" , zIndex:-50 ,
+                            }}
+                      />  
+                  <div className="flex flex-col justify-center items-center h-full " >
+                    <Heading as="h1" className=" flex text-6xl text-white">
+                    Safari Blog 
+                  </Heading>
+                  </div>
+                </div>
+            </div>
+      <Container className="m-auto p-24">
         <div className="text-white">
           <Heading as="h1" className="text-hero leading-none">
             Our Latest Posts
@@ -226,7 +245,7 @@ const BlogPage = () => {
           </div>
         </div>
       </Container>
-    </Section>
+    </div>
   );
 };
 

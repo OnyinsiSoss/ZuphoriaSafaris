@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export const Blog = () => {
   return (
-    <Section className=" bg-secondary-950">
-      <Container>
+    <Section className="">
+      <Container className="m-auto px-24">
         <div>
           <div className="w-full flex justify-between items-center">
             <Heading as="h2" className="text-section leading-none text-white">
@@ -48,7 +48,7 @@ export const Blog = () => {
                 <div className="flex items-center gap-6 mt-6">
                   <div className="flex items-center gap-3">
                     <Image
-                      src="/images/bruno.jpg"
+                      src="/images/brian.jpg"
                       alt="Bruno"
                       height={40}
                       width={40}
@@ -85,7 +85,7 @@ export const Blog = () => {
                 <div className="flex items-center gap-6 mt-6">
                   <div className="flex items-center gap-3">
                     <Image
-                      src="/images/bruno.jpg"
+                      src="/images/brian.jpg"
                       alt="Bruno"
                       height={40}
                       width={40}
@@ -122,7 +122,7 @@ export const Blog = () => {
                 <div className="flex items-center gap-6 mt-6">
                   <div className="flex items-center gap-3">
                     <Image
-                      src="/images/bruno.jpg"
+                      src="/images/brian.jpg"
                       alt="Bruno"
                       height={40}
                       width={40}
@@ -159,7 +159,7 @@ export const Blog = () => {
                 <div className="flex items-center gap-6 mt-6">
                   <div className="flex items-center gap-3">
                     <Image
-                      src="/images/bruno.jpg"
+                      src="/images/brian.jpg"
                       alt="Bruno"
                       height={40}
                       width={40}
