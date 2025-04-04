@@ -23,7 +23,9 @@ const ContactPage = () => {
               </Heading>
           </div>
     </div>
-<ContactForm/>
+    <div className='bg-slate-300'>
+      <ContactForm/>
+    </div>
 </div>
 
   )

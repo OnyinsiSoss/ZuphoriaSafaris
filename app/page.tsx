@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <main className="no-scrollbar">
         <Hero />
-        <Features />
         <AboutUs/>
+        <Features />
         <NewLetter/>  
         <Blog/>        
 
