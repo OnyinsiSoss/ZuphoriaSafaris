@@ -6,14 +6,9 @@ import { Container } from '@/components/layouts';
 export const ContactForm = () => {
   return (
     <section className='flex items-center w-full m-auto box-border '>
-        <Container className='flex flex-col bg-white items-center m-40 border-2 w-screen'>
-             <div className='w-2/3 p-20 '>
-                <Heading as="h1" className="text-center uppercase text-4xl text-emerald-900 ">
-                 Contact us            
-                </Heading>                           
-            </div>
+        <Container className='flex flex-col bg-white items-center rounded-xl m-40 shadow-xl/40 w-screen'>
             <div className='w-1/2 flex justify-center items-center'>
-              <form className='pb-20 flex flex-col gap-20 rounded-4xl'>
+              <form className='p-20 flex flex-col gap-20 rounded-4xl'>
                 <Heading as="h1" className="text-4xl text-center text-emerald-900 ">
                   Get in Touch, and Our Expert Will Reach Out to You          
                  </Heading>
@@ -35,12 +30,11 @@ export const ContactForm = () => {
                 <div className='flex items-center gap-5'>
                   <input type="checkbox" />
                   <p className='text-xl text-emerald-900'>
-                    By clicking on the SUBMIT button, I accept the terms of
-                    processing of my personal data.
+                    I declare that I have read and accepted the information on Privacy and Cookie Policy and I authorize Zuphoria Safaris to process my personal data,
                   </p>
                 </div>
                 <Button className="uppercase" variant="primary">
-                    Submit
+                    REquest  information
                 </Button>
               </form>
             </div>
