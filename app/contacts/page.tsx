@@ -9,7 +9,7 @@ const ContactPage = () => {
             <div/>
               <Image
                 alt="about-us"
-                src="/images/pic-31.jpg"
+                src="/images/Pic-41.JPG"
                 quality={100}
                 fill
                 sizes="100vw"

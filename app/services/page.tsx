@@ -1,5 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
-import {
+ import {
   Container,
   Heading,
   NewLetter,
@@ -9,15 +8,16 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 
+
 const Services = () => {
   return (
     <React.Fragment>
       <div className="m-auto">
         <div className="" >          
-          <div style={{ height:"100vh", zIndex:-40 , background:'linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .51802), rgba(0, 0, 0, .3))'}}>
+          <div style={{ height:"100vh", zIndex:-40 , background:'linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .5))'}}>
                 <Image
                   alt="about-us"
-                  src="/images/pic-31.jpg"
+                  src="/images/Pic-23.JPG"
                   quality={100}
                   fill
                   sizes="100vw"
@@ -25,8 +25,8 @@ const Services = () => {
                       objectFit: 'cover', position:"absolute" , zIndex:-50 ,
                       }}
                 />  
-            <div className="flex flex-col justify-center items-center h-full " >
-              <Heading as="h1" className=" flex text-6xl text-white">
+            <div className="flex fl`ex-col  justify-center items-center h-full text-8xl  text-white" >
+              <Heading as="h1" className= "">
               Our Services 
             </Heading>
             </div>
@@ -37,7 +37,7 @@ const Services = () => {
       <Container className="m-auto px-24">
         <div>
           <div className="w-full flex justify-between items-center">
-            <Heading as="h2" className="text-3xl leading-none text-emerald-900">
+            <Heading as="h2" className="text-3xl leading-none text-emerald-900 ">
               Safaris Destination
             </Heading>
             <button className="border px-6 py-3 rounded-full border-emerald-900 text-emerald-900">
@@ -62,15 +62,12 @@ const Services = () => {
               <div>
                 <div>
                   <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
-                    <Link href="/blog/a">
-                      Harnessing the Power of the Sun: Exploring the World of
-                      Solar Energy
+                    <Link href="/service/a">
+                     Masaai Mara 
                     </Link>
                   </Heading>
                   <p className="text-neutral-900 text-xl">
-                    Solar energy is revolutionizing the way we power our world.
-                    In this blog post,sustainable energy source for a brighter
-                    future.
+                    come see the epic widerbeast migration from the serengeti to the mara through the mara river, at the jaws of the mara crocodile and the big cats.
                   </p>
                 </div>
               </div>
