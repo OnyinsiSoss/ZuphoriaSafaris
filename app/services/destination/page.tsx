@@ -267,7 +267,7 @@ const Services = () => {
             <div className="flex group flex-col gap-8">
               <div className="aspect-video rounded-xl overflow-hidden h-[360px] ">
                 <Image
-                  src="/images/Pic-9.jpg"
+                  src="/images/Pic-41.JPG"
                   alt="Blog A"
                   width={330}
                   height={330}

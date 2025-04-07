@@ -3,73 +3,85 @@ import {
   Heading,
   LindkedlnFooter,
   Linkedln,
-  Section,
   SubTitle,
 } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
 const BlogDetailPage = () => {
   return (
-    <Section className="bg-secondary-950">
-      <Container className="m-auto">
+    <div className="m-auto bg-secondary-950">
+      <div className="">
+        <div className="" >          
+          <div style={{ height:"100vh", zIndex:-40 , background:'linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .5))'}}>
+                <Image
+                  alt="about-us"
+                  src="/images/Pic-23.JPG"
+                  quality={100}
+                  fill
+                  sizes="100vw"
+                  style={{
+                      objectFit: 'cover', position:"absolute" , zIndex:-50 ,
+                      }}
+                />  
+            <div className="flex  justify-center items-center h-full lg:text-6xl sm:text-6xl text-4xl text-white" >
+              <Heading as="h1" className= "">
+              THe Great Mara Migration 
+            </Heading>
+            </div>
+          </div>
+      </div>
+      </div>
+      <Container className="m-auto py-20">
         <div className="grid grid-cols-1 md:grid-cols-8">
           <div className="col-span-2 flex flex-col gap-4 items-start justify-between">
-            <Link href="/blog" className="text-white">
+            <Link href="/blog" className="text-slate-900">
               Back to blog
             </Link>
             <div className="flex flex-col">
               <div className="">
                 <Image
-                  src="/images/bruno.jpg"
-                  alt="Bruno"
+                  src="/images/brian.jpg"
+                  alt="Brian"
                   height={40}
                   width={40}
                   className="h-[40px] object-cover rounded-full"
                 />
-                <span className="text-white">Leslie Alexander</span>
+                <span className="text-slate-900">Nyahe Mwaura</span>
               </div>
-              <span className="text-white">Solar energy specialist</span>
+              <span className="text-slate-900">Safari advisor</span>
             </div>
           </div>
           <div className="col-span-4 flex flex-col my-8 gap-8 items-start md:text-center md:items-center">
-            <span className="bg-white rounded-full px-2 py-1">Solar Power</span>
-            <Heading as="h1" className="text-section text-white leading-none">
-              Harnessing the Power of the Sun: Exploring the World of Solar
-              Energy
+            <span className="bg-white rounded-full px-2 py-1">Destination</span>
+            <Heading as="h1" className="text-section text-slate-900 leading-none">
+              The Great Widerbeast mogration
             </Heading>
-            <div className="flex gap-3 text-white">
+            <div className="flex gap-3 text-slate-900">
               <span>9 min read</span>
               <span>Dec 11, 2023</span>
             </div>
           </div>
-          <div className="col-span-2 text-white flex flex-col md:items-end justify-end">
+          <div className="col-span-2 text-slate-900 flex flex-col md:items-end justify-end">
             <span className="mb-3">Share</span>
             <div className="flex gap-3">
               <Linkedln />
-              <Linkedln />
-              <Linkedln />
-              <Linkedln />
+
             </div>
           </div>
         </div>
         <div className="rounded-3xl my-4 md:my-8 flex flex-col items-center">
           <Image
-            src="/images/Pic-9.jpg"
+            src="/images/Pic-41.JPG"
             alt="Blog A"
             width={330}
             height={330}
             className="rounded-3xl w-full h-full object-cover"
           />
-          <div className="max-w-3xl text-white my-8 md:my-16 flex flex-col md:gap-16 gap-8">
+          <div className="max-w-3xl text-slate-900 my-8 md:my-16 flex flex-col md:gap-16 gap-8">
             <p>
-              In a world increasingly concerned with environmental
-              sustainability and the search for renewable energy sources, solar
-              power has emerged as a shining star. Harnessing the power of the
-              sun, solar energy offers a clean and inexhaustible solution to our
-              growing energy needs. This article delves into the fascinating
-              world of solar energy, exploring its mechanisms, benefits, and the
-              transformative impact it can have on our planet.
+             The Migration Safari and Adventure in the Mara is one of our most popular Safari sold! It occurs during the Annual Great Migration of wildebeest (July to November) in the world-famous Maasai Mara Game Reserve. Get up close and personal with hundreds of thousands of wildebeest and zebras, roaming the plains of the Mara and crossing the Mara River with spectacular hunting scenes of Big Cats and Crocodiles. Your accommodation is in a boutique & intimate luxury camp in an excellent location close to the various migration points. In addition, you will visit the bird paradise of Lake Naivasha, one of Kenya’s scenic Great Rift Valley Lakes
 
             
             </p>
@@ -143,7 +155,7 @@ const BlogDetailPage = () => {
                     placeholder="Your e-mail"
                     className="py-3 px-6 rounded-full flex-grow mb-3 sm:mb-0"
                   />
-                  <button className="px-6 py-3 bg-primary-950 rounded-full text-white">
+                  <button className="px-6 py-3 bg-primary-950 rounded-full text-slate-900">
                     Get in touch
                   </button>
                 </div>
@@ -151,7 +163,7 @@ const BlogDetailPage = () => {
             </div>
             {/* Quote */}
             <div className=" shrink-0  sm:col-span-1 p-10 rounded-3xl">
-              <p className="text-left text-white text-sub-title min-h-[140px]">
+              <p className="text-left text-slate-900 text-sub-title min-h-[140px]">
                 “Flow transformed my energy use. Efficient, green tech,
                 outstanding Lorem ipsum dolor sit amet consectetur adipisicing
                 elit. Earum magnam non, repellendus ab commodi, expedita fugit
@@ -171,7 +183,7 @@ const BlogDetailPage = () => {
                 <div className="flex flex-col gap-2 sm:flex-row justify-between w-full">
                   <div className="text-white flex flex-col ">
                     <h3 className="text-sub-title">Jenny Wilson</h3>
-                    <p className="text-white text-sm opacity-90">
+                    <p className="text-slate-900 text-sm opacity-90">
                       Solar energy service{" "}
                     </p>
                   </div>
@@ -272,7 +284,7 @@ const BlogDetailPage = () => {
               </div>
               <div>
                 <div>
-                  <Heading as="h3" className="text-white text-sub-title mb-4">
+                  <Heading as="h3" className="text-slate-900 text-sub-title mb-4">
                     <Link href="/blog/a">
                       Harnessing the Power of the Sun: Exploring the World of
                       Solar Energy
@@ -287,15 +299,15 @@ const BlogDetailPage = () => {
                 <div className="flex items-center gap-6 mt-6">
                   <div className="flex items-center gap-3">
                     <Image
-                      src="/images/bruno.jpg"
-                      alt="Bruno"
+                      src="/images/brian.jpg"
+                      alt="Brian"
                       height={40}
                       width={40}
                       className="h-[40px] object-cover rounded-full"
                     />
-                    <span className="text-white">Leslie Alexander</span>
+                    <span className="text-slate-900">Leslie Alexander</span>
                   </div>
-                  <span className="text-white">9 min read</span>
+                  <span className="text-slate-900">9 min read</span>
                 </div>
               </div>
             </div>
@@ -313,7 +325,7 @@ const BlogDetailPage = () => {
               </div>
               <div>
                 <div>
-                  <Heading as="h3" className="text-white text-sub-title mb-4">
+                  <Heading as="h3" className="text-slate-900 text-sub-title mb-4">
                     <Link href="/blog/a">
                       Harnessing the Power of the Sun: Exploring the World of
                       Solar Energy
@@ -328,15 +340,15 @@ const BlogDetailPage = () => {
                 <div className="flex items-center gap-6 mt-6">
                   <div className="flex items-center gap-3">
                     <Image
-                      src="/images/bruno.jpg"
-                      alt="Bruno"
+                      src="/images/brian.jpg"
+                      alt="Brian"
                       height={40}
                       width={40}
                       className="h-[40px] object-cover rounded-full"
                     />
-                    <span className="text-white">Leslie Alexander</span>
+                    <span className="text-slate-900">Leslie Alexander</span>
                   </div>
-                  <span className="text-white">9 min read</span>
+                  <span className="text-slate-900">9 min read</span>
                 </div>
               </div>
             </div>
@@ -354,13 +366,13 @@ const BlogDetailPage = () => {
               </div>
               <div>
                 <div>
-                  <Heading as="h3" className="text-white text-sub-title mb-4">
+                  <Heading as="h3" className="text-slate-900 text-sub-title mb-4">
                     <Link href="/blog/a">
                       Harnessing the Power of the Sun: Exploring the World of
                       Solar Energy
                     </Link>
                   </Heading>
-                  <p className="text-neutral-400">
+                  <p className="text-slate-900">
                     Solar energy is revolutionizing the way we power our world.
                     In this blog post,sustainable energy source for a brighter
                     future.
@@ -369,22 +381,22 @@ const BlogDetailPage = () => {
                 <div className="flex items-center gap-6 mt-6">
                   <div className="flex items-center gap-3">
                     <Image
-                      src="/images/bruno.jpg"
-                      alt="Bruno"
+                      src="/images/brian.jpg"
+                      alt="Brian"
                       height={40}
                       width={40}
                       className="h-[40px] object-cover rounded-full"
                     />
-                    <span className="text-white">Leslie Alexander</span>
+                    <span className="text-slate-900">Leslie Alexander</span>
                   </div>
-                  <span className="text-white">9 min read</span>
+                  <span className="text-slate-900">9 min read</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </Container>
-    </Section>
+    </div>
   );
 };
 

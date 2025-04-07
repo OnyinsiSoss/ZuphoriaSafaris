@@ -19,7 +19,7 @@ function AboutUsCarousell() {
       centerSlidePercentage={90}
       className="h-full  cursor-grabbing"
     >
-      <div className="w-full h-[450px] object-cover sm:h-[700px]">
+      <div className="w-full h-[450px] object-cover sm:h-[400px]">
         <Image
           src="/images/Pic-101.JPG"
           alt="About Us Image"
@@ -28,7 +28,7 @@ function AboutUsCarousell() {
           height={530}
         />
       </div>
-      <div className="w-full h-[450px]  sm:h-[700px]">
+      <div className="w-full h-[450px]  sm:h-[400px]">
         <Image
           src="/images/Pic-67.JPG"
           alt="About Us Image"
@@ -37,7 +37,7 @@ function AboutUsCarousell() {
           height={530}
         />
       </div>
-      <div className="w-full h-[450px]  sm:h-[700px]">
+      <div className="w-full h-[450px]  sm:h-[400px]">
         <Image
           src="/images/Pic-257.JPG"
           alt="About Us Image"

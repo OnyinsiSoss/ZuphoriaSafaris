@@ -79,7 +79,7 @@ const Services = () => {
                     </Link>
                   </Heading>
                   <p className="text-neutral-900 text-xl">
-                    come see the epic widerbeast migration from the serengeti to the mara through the mara river, at the jaws of the mara crocodile and the big cats.
+                    Come see the epic widerbeast migration from the serengeti to the mara through the mara river, at the jaws of the mara crocodile and the big cats.
                   </p>
                 </div>
               </div>
