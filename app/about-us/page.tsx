@@ -32,115 +32,6 @@ const AboutUs = () => {
             </Heading>
             </div>
           </div>
-          {/* <div className="grid md:grid-cols-4 mt-4 md:grid-rows-4 md:h-screen gap-4">
-            <div className="col-span-2 gap-4 h-full grid grid-rows-2 grid-cols-2 row-span-4">
-              <div className="col-span-2 row-span-1 rounded-3xl overflow-hidden">
-                <Image
-                  src="https://cdn.dribbble.com/userupload/14360068/file/original-ba1ed7bf3a14c47e57943f30b8b7b141.png?resize=1024x768"
-                  alt="About us 1"
-                  width={450}
-                  height={320}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="col-span-2 md:col-span-1 row-span-2 grid  grid-rows-2 gap-4">
-                <div className="bg-neutral-200 flex flex-col justify-between p-4 rounded-3xl">
-                  <Heading as="h3" className="text-title">
-                    100%
-                  </Heading>
-                  <div>
-                    <Heading as="h4" className="text-label font-bold">
-                      Dedication
-                    </Heading>
-                    <p className="">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-                <div className="bg-neutral-200 flex flex-col justify-between p-4 rounded-3xl">
-                  <Heading as="h3" className="text-title">
-                    100%
-                  </Heading>
-                  <div>
-                    <Heading as="h4" className="text-label font-bold">
-                      Dedication
-                    </Heading>
-                    <p className="">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-span-2 md:col-span-1 row-span-2 bg-black text-white flex flex-col justify-between p-4 rounded-3xl">
-                <Heading as="h3" className="text-title">
-                  100%
-                </Heading>
-                <div>
-                  <Heading as="h4" className="text-label font-bold">
-                    Dedication
-                  </Heading>
-                  <p className="text-neutral-300">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Laboriosam reprehenderit culpa vero omnis ullam
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-span-2 gap-4 h-full grid grid-rows-2 grid-cols-2 row-span-4">
-              <div className="col-span-2 md:row-start-3 row-span-1 rounded-3xl overflow-hidden">
-                <Image
-                  src="https://cdn.dribbble.com/users/6942141/screenshots/15943214/media/8263cbe0693a7922ece383adcd701991.png?resize=450x338&vertical=center"
-                  alt="About us 1"
-                  width={450}
-                  height={320}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="col-span-2 md:col-span-1 row-span-2 grid  grid-rows-2 gap-4">
-                <div className="bg-neutral-200 flex flex-col justify-between p-4 rounded-3xl">
-                  <Heading as="h3" className="text-title">
-                    100%
-                  </Heading>
-                  <div>
-                    <Heading as="h4" className="text-label font-bold">
-                      Dedication
-                    </Heading>
-                    <p className="">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-                <div className="bg-neutral-200 flex flex-col justify-between p-4 rounded-3xl">
-                  <Heading as="h3" className="text-title">
-                    100%
-                  </Heading>
-                  <div>
-                    <Heading as="h4" className="text-label font-bold">
-                      Dedication
-                    </Heading>
-                    <p className="">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-span-2 md:col-span-1 row-span-2 bg-black text-white flex flex-col justify-between p-4 rounded-3xl">
-                <Heading as="h3" className="text-title">
-                  100%
-                </Heading>
-                <div>
-                  <Heading as="h4" className="text-label font-bold">
-                    Dedication
-                  </Heading>
-                  <p className="text-neutral-300">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Laboriosam reprehenderit culpa vero omnis ullam
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
       <Section className="bg-slate-300 w-full py-32 ">
@@ -153,7 +44,9 @@ const AboutUs = () => {
                   </p>
                  
                 </div>
-          </Section>
+      </Section>
+
+      
 
  <Section className="bg-emerald-900 ">
         <Container className="m-auto px-38">

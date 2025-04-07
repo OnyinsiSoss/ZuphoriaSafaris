@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
-function AboutUsCarousel() {
+function AboutUsCarousell() {
   return (
     <Carousel
       swipeable
@@ -17,11 +17,20 @@ function AboutUsCarousel() {
       infiniteLoop
       autoPlay
       centerSlidePercentage={90}
-      className="h-full cursor-grabbing"
+      className="h-full  cursor-grabbing"
     >
+      <div className="w-full h-[450px] object-cover sm:h-[700px]">
+        <Image
+          src="/images/Pic-101.JPG"
+          alt="About Us Image"
+          width={420}
+          className="object-cover w-full h-full rounded-3xl"
+          height={530}
+        />
+      </div>
       <div className="w-full h-[450px]  sm:h-[700px]">
         <Image
-          src="/images/Pic-49.JPG"
+          src="/images/Pic-67.JPG"
           alt="About Us Image"
           width={420}
           className="w-full object-cover h-full rounded-3xl"
@@ -30,16 +39,7 @@ function AboutUsCarousel() {
       </div>
       <div className="w-full h-[450px]  sm:h-[700px]">
         <Image
-          src="/images/Pic-44.JPG"
-          alt="About Us Image"
-          width={420}
-          className="w-full object-cover h-full rounded-3xl"
-          height={530}
-        />
-      </div>
-      <div className="w-full h-[450px]  sm:h-[700px]">
-        <Image
-          src="/images/Pic-50.JPG"
+          src="/images/Pic-257.JPG"
           alt="About Us Image"
           width={420}
           className="w-full object-cover h-full rounded-3xl"
@@ -50,4 +50,4 @@ function AboutUsCarousel() {
   );
 }
 
-export default AboutUsCarousel;
+export default AboutUsCarousell;
