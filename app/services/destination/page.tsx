@@ -12,12 +12,12 @@ import Link from "next/link";
 const Services = () => {
   return (
     <React.Fragment>
-      <div className="m-auto ">
+      <div className="m-auto">
         <div className="" >          
           <div style={{ height:"100vh", zIndex:-40 , background:'linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .5))'}}>
                 <Image
                   alt="about-us"
-                  src="/images/Pic-23.JPG"
+                  src="/images/Pic-312.JPG"
                   quality={100}
                   fill
                   sizes="100vw"
@@ -25,43 +25,31 @@ const Services = () => {
                       objectFit: 'cover', position:"absolute" , zIndex:-50 ,
                       }}
                 />  
-            <div className="flex  justify-center items-center h-full lg:text-8xl sm:text-6xl text-4xl text-white" >
+            <div className="flex fl`ex-col  justify-center items-center h-full text-8xl  text-white" >
               <Heading as="h1" className= "">
-              Our Services 
+              Destination 
             </Heading>
             </div>
           </div>
         </div>
       </div>
       <Section className="bg-slate-200">
-
-      <Section className="lg:p-20 w-full ">
-        <div className="flex justify-center items-center flex-col gap-8">
-          <Heading as="h2" className="md:px-32 px-8 text-5xl xl:text-5xl leading-none text-gray-900 text-center capitalize">
-            Let us build your dream vacation
-          </Heading>
-          <p className="text-slate-800 text-center text-2xl px-6  ">
-           Let Zuphoria Safaris guide you through an extraordinary safari adventure in Africa.
-          </p>
-         </div>
-      </Section>
-
-      <Container className="m-auto p-10 ">
+      <Container className="m-auto p-10 md:p-16 lg:p-24">
         <div>
           <div className="w-full flex justify-between items-center">
             <Heading as="h2" className="text-3xl leading-none text-emerald-900 ">
-              Safaris Destination
+              National Parks and Game Reserves
             </Heading>
             <button className="border px-6 py-3 rounded-full border-emerald-900 text-emerald-900">
-              <Link href="/services/destination">
+              <Link href="/blog">
               See More
               </Link>            
             </button>
           </div>
-          <div className="grid mt-12 sm:mt-24 grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10">
+          <div className="grid sm:mt-24 grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="flex group flex-col gap-8">
               <div className="aspect-video rounded-xl overflow-hidden h-[360px] ">
-                <Link href="/services/destination">
+                <Link href="/blog/a">
                   <Image
                     src="/images/Pic-9.jpg"
                     alt="Blog A"
@@ -138,19 +126,19 @@ const Services = () => {
       </Section>
 
       <Section className="bg-slate-200">
-      <Container className="m-auto p-6">
+      <Container className="m-auto px-24">
         <div>
           <div className="w-full flex justify-between items-center">
             <Heading as="h2" className="text-3xl leading-none text-emerald-900">
-              Safaris Accomodations
+              Conservancies
             </Heading>
             <button className="border px-6 py-3 rounded-full border-emerald-900 text-merald-900">
-              <Link href="/services/accomodation">
+              <Link href="/blog">
               See More
               </Link>            
             </button>
           </div>
-          <div className="grid mt-12 sm:mt-24 grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10">
+          <div className="grid mt-12 sm:mt-24 grid-cols-1 md:grid-cols-3 gap-6">
             <div className="flex group flex-col gap-8">
               <div className="aspect-video rounded-xl overflow-hidden h-[360px] ">
                 <Link href="/blog/a">
@@ -235,19 +223,19 @@ const Services = () => {
       </Section>
 
       <Section className="bg-slate-200">
-      <Container className="m-auto p-6">
+      <Container className="m-auto px-24">
         <div>
           <div className="w-full flex justify-between items-center">
             <Heading as="h2" className="text-3xl leading-none text-emerald-900">
-              Experiences
+              Coastal area & Beaches
             </Heading>
             <button className="border px-6 py-3 rounded-full border-emerald-900 text-emerald900">
-              <Link href="/services/experiences">
+              <Link href="/blog">
               See More
               </Link>            
             </button>
           </div>
-          <div className="grid mt-12 sm:mt-24 grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10">
+          <div className="grid mt-12 sm:mt-24 grid-cols-1 md:grid-cols-3 gap-6">
             <div className="flex group flex-col gap-8">
               <div className="aspect-video rounded-xl overflow-hidden h-[360px] ">
                 <Link href="/blog/a">
@@ -396,9 +384,25 @@ const Services = () => {
           </div>
         </Container>
              </Section> */}
-      
+      <Section className="bg-slate-300 w-full ">
+        <div className="flex justify-center items-center flex-col gap-8">
+          <Heading as="h2" className="md:px-32 px-8 text-5xl xl:text-5xl leading-none text-gray-900 text-center capitalize">
+            Let us build your dream vacation
+          </Heading>
+          <p className="text-slate-800 text-center text-2xl px-6 sm:px-60  ">
+           Let Zuphoria Safaris guide you through an extraordinary safari adventure in Africa.
+          </p>
+          <button className="border px-6 py-3 rounded-full border-emerald-900 text-emerald900">
+            <Link href="/contacts">
+            Enquire Now
+            </Link>            
+            </button>
+         </div>
+      </Section>      
 
+      <div className="">
         <NewLetter />
+      </div>
     </React.Fragment>
   );
 };

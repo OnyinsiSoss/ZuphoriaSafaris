@@ -18,7 +18,7 @@ const AboutUs = () => {
           <div style={{ height:"100vh", zIndex:-40 , background:'linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .3))'}}>
                 <Image
                   alt="about-us"
-                  src="/images/Pic-15.JPG"
+                  src="/images/Pic-6.JPG"
                   quality={100}
                   fill
                   sizes="100vw"

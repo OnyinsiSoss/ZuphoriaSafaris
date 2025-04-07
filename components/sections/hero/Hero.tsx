@@ -1,6 +1,7 @@
 import { Button, Heading } from "@/components/elements";
 import { Container, Section } from "@/components/layouts";
 import Image from "next/image";
+import Link from "next/link";
 // import Image from "next/image";
 
 const Hero = () => {
@@ -24,7 +25,9 @@ const Hero = () => {
             <p className="text-2xl text-white mb-8 text-center capitalize">
               Turning dreams into destinations
             </p>
+            <Link href="/services">
             <Button className="w-fit items-center uppercase" variant="secondary">Explore our Safari collection.</Button>
+            </Link>
           </div>
         </div>
       </Container>

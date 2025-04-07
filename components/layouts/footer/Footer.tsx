@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <div className="mt-15">
+    <div className="mt-15 bg-emerald-900">
       <footer className=" sm:py-12 relative overflow-hidden">
         <div className=" relative">
           <div className="grid sm:grid-cols-6 xl:grid-cols-12 gap-8">
