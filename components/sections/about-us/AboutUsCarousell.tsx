@@ -10,7 +10,7 @@ function AboutUsCarousell() {
       swipeable
       stopOnHover
       showStatus={false}
-      interval={6000}
+      interval={3000}
       showArrows={false}
       useKeyboardArrows={true}
       emulateTouch
