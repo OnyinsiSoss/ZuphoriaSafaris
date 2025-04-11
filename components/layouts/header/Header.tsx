@@ -42,14 +42,14 @@ export const Header = () => {
           </Link>
           <nav
             className={cx(
-              "list-none bg-green-950 sm:bg-transparent duration-300 sm:translate-y-0 absolute h-screen top-0 left-0 w-screen justify-center flex-col sm:relative sm:h-fit sm:w-fit sm:flex-row flex items-center text-white gap-8",
+              "list-none bg-green-950 sm:bg-transparent duration-300 sm:translate-y-0 absolute h-screen top-0 left-0 w-screen justify-center flex-col sm:relative sm:h-fit sm:w-fit sm:flex-row flex items-center text-white gap-2",
               showMenu === true ? "translate-y-0" : "-translate-y-full"
             )}
           >
             {headerData.header.map((item, index) => {
               return (
                 <li key={index} className="">
-                  <Link className="capitalize" href={item.href}>
+                  <Link className="capitalize hover:text-amber-100" href={item.href}>
                     {item.label}
                   </Link>
                 </li>

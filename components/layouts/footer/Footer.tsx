@@ -1,74 +1,51 @@
-import {
-  Facebook,
-  Instagram,
-  LindkedlnFooter,
-} from "@/components/elements";
+
 import Link from "next/link";
 import Image from "next/image";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa6";
+import { LiaTripadvisor } from "react-icons/lia";
 
 
 export const Footer = () => {
   return (
-    <div className="mt-15 bg-emerald-900">
-      <footer className=" sm:py-12 relative overflow-hidden">
-        <div className=" relative">
-          <div className="grid sm:grid-cols-6 xl:grid-cols-12 gap-8">
-            <div className="col-span-6 items-center object-cover flex top-0 justify-center h-fit ">
-              <Link href="/" className="z-20 object-cover flex items-center ">
+      <footer className="m-auto bg-emerald-900">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2  gap-5 sm:flex-cols-2 lg:flex-row justify-around ">
+          <div className="flex justify-center">
+            <Link href="/" className="z-20 object-cover shrink flex items-center ">
                 <Image
                   src="/images/logo.png"
                   width={350} height={300} alt="Zuphoria"
-                />          
-              </Link>            
-            </div>
-            <div className="col-span-6 grid sm:grid-cols-6 gap-2">
-              <div className="col-span-4 w-full grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-2 grid sm:col-span-3  justify-center">
-                <ul className="list-none text-white flex align-middle flex-col gap-10 ">
-                  <label className="text-white font-semibold">Quick Links</label>
-                  <li>
-                    <Link href="/">Services</Link>
-                  </li>
-                  <li>
-                    <Link href="/">How it works</Link>
-                  </li>
-                  <li>
-                    <Link href="/">Pricing</Link>
-                  </li>
-                </ul>
-                <ul className="list-none text-white flex flex-col gap-10">
-                  <label className="text-white font-semibold">Resources</label>
-                  <li>
-                    <Link href="/">Solutions</Link>
-                  </li>
-                  <li>
-                    <Link href="/">How it works</Link>
-                  </li>
-                  <li>
-                    <Link href="/">Pricing</Link>
-                  </li>
-                </ul>
-              </div>
-              <div className="flex flex-row gap-4 items-center  w-fit h-fit duration-300">
-                <div className="flex items-center gap-4 p-3 bg-white/25 rounded-full hover:bg-white duration-300 ">
-                  <span className="bg-primary-300 p-3 flex items-center justify-center rounded-full">
-                    <Facebook />
-                  </span>
-                </div>
-                <div className="flex items-center gap-4 p-3 bg-white/25 rounded-full hover:bg-white duration-300">
-                  <span className="bg-primary-300 p-3 flex items-center justify-center rounded-full">
-                    <Instagram />
-                  </span>
-                </div>
-                <div className="flex items-center gap-4 p-3 bg-white/25 rounded-full hover:bg-white duration-300">
-                  <span className="bg-primary-300 p-3 flex items-center justify-center rounded-full">
-                    <LindkedlnFooter />
-                  </span>
-                </div>
-              </div>  
-            </div>
+                />           
+            </Link>            
+          </div>
+          <div className="flex  items-center justify-center capitalize">
+            <ul className="text-xl text-amber-100">
+              <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-300"><a href="/about-us">about us</a></li>
+              <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-300"><a href="/services">Our Safaris</a></li>
+              <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-300"><a href="">Our Experiences</a></li>
+              <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-300"><a href="#">Through Our Eyes</a></li>
+              <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-300"><a href="#">Enquire more</a></li>
+            </ul>
+          </div>          
+          <div className="flex items-center gap-10 flex-col justify-center">
+            <ul className="text-xl  gap-10 text-amber-100">
+              <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-500"><a href="tel:+254716605815">(123) 456-7890</a></li>
+              <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-500"><a href="#">123 Lanet road, Nakuru</a></li>
+              <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-500"><a href="mailto:samuelonyinsi@gmail.com"> zuphoriasafaris@gmail.com</a></li>
+            </ul>
+          </div>
+          <div className="flex items-center justify-center  ">
+          <ul className="flex gap-5" >
+            <li className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"><a href="#">< FaYoutube/></a></li>
+            <li className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"><a href="https://www.facebook.com/Zuphoria-Safaris-61571774026027/" target='blank'>< FaFacebook/></a></li>
+            <li className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"><a href="https://instagram.com/zuphoriazurusafaris" target='blank'>< FaInstagram/></a></li>
+            <li className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"><a href="#">< LiaTripadvisor/></a></li> 
+          </ul>
           </div>
         </div>
+
+        <div className="m-auto text-amber-100 text-md text-center py-10  ">
+          <p>&copy; 2025 Zuphoria Safaris. All rights reserved.</p>
+        </div>
       </footer>
-    </div>
   );
 };

@@ -41,7 +41,7 @@ const Services = () => {
             Let us build your dream vacation
           </Heading>
           <p className="text-slate-800 text-center text-2xl px-6  ">
-           Let Zuphoria Safaris guide you through an extraordinary safari adventure in Africa.
+           Zuphoria Safaris will guide you through an extraordinary safari adventure in Africa.
           </p>
          </div>
       </Section>

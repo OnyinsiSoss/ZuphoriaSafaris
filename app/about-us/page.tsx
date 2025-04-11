@@ -13,9 +13,9 @@ import React from "react";
 const AboutUs = () => {
   return (
     <React.Fragment>
-      <div className="m-auto">
+      <div className="sm:h-screen h-1/2">
         <div className="" >          
-          <div style={{ height:"100vh", zIndex:-40 , background:'linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .3))'}}>
+          <div className="h-[70vh], sm:h-screen, object-cover" style={{ height:"100vh", zIndex:-40 , background:'linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .3))'}}>
                 <Image
                   alt="about-us"
                   src="/images/Pic-6.JPG"
@@ -34,9 +34,9 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <Section className="bg-slate-300 w-full py-32 ">
+      <Section className="bg-slate-300 w-full py-8 sm:py-32 ">
                 <div className="flex justify-center items-center flex-col gap-8">
-                  <Heading as="h2" className="md:px-32 px-8 text-5xl xl:text-5xl leading-none text-gray-900 text-center capitalize">
+                  <Heading as="h2" className="md:px-32 px-8 text-2xl md:text-5xl xl:text-5xl leading-none text-gray-900 text-center capitalize">
                     Expert in tailored African adventures
                   </Heading>
                   <p className="text-slate-800 text-center text-2xl px-6 sm:px-60 py-8  ">

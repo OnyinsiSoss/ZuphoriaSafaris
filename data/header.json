@@ -1,20 +1,21 @@
 {
   "header": [
     {
-      "label": "About us",
+      "label": "About",
       "href": "/about-us"
     },
     {      
-      "label": "Services",
+      "label": "Safaris",
       "href": "/services"
     },
     {
-      "label": "Blog",
-      "href": "/blog"
+      "label": "Experiences",
+      "href": "/services/experiences"
     },
     {
-      "label": "Through our eyes",
+      "label": "Photography",
       "href": "/photography"
     }
+
   ]
 }

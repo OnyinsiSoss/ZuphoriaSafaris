@@ -43,7 +43,7 @@ const Photography = () => {
                       A  combines the thrill of a traditional safari drive with a focus on capturing stunning wildlife photographs. It is designed specifically for photographers who want to enhance their skills and capture memorable images of wildlife in their natural habitat.
                   </p>
 
-                  <div className="p-6 md:p-18">
+                  <div className="p-6 sm:px-60">
                     <AboutUsCarousell/>
                   </div>
 

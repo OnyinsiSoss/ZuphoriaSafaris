@@ -17,12 +17,12 @@ const Hero = () => {
             className="-z-10 object-cover absolute"
           />
           <div className="text-white">
-            <Heading as="h1" className="text-8xl text-center leading-none ">
+            <Heading as="h1" className="text-5xl lg:text-8xl text-center leading-none ">
               Zuphoria Safaris
             </Heading>
           </div>
-          <div className="flex flex-col mt-8 xl:mt-5 items-center justify-center ">
-            <p className="text-2xl text-white mb-8 text-center capitalize">
+          <div className="flex flex-col mt-3 xl:mt-3 items-center justify-center ">
+            <p className="text-xl w-2/3 sm:w-full text-white mb-3 text-center capitalize">
               Turning dreams into destinations
             </p>
             <Link href="/services">

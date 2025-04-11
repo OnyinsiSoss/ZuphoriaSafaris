@@ -17,7 +17,7 @@ const Services = () => {
           <div style={{ height:"100vh", zIndex:-40 , background:'linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .5))'}}>
                 <Image
                   alt="about-us"
-                  src="/images/Pic-312.JPG"
+                  src="/images/Pic-85.JPG"
                   quality={100}
                   fill
                   sizes="100vw"
@@ -25,16 +25,16 @@ const Services = () => {
                       objectFit: 'cover', position:"absolute" , zIndex:-50 ,
                       }}
                 />  
-            <div className="flex fl`ex-col  justify-center items-center h-full text-8xl  text-white" >
+            <div className="flex flex-col  justify-center items-center h-full text-7xl  text-white" >
               <Heading as="h1" className= "">
-              Destination 
+              Safari Destinations 
             </Heading>
             </div>
           </div>
         </div>
       </div>
-      <Section className="bg-slate-200">
-      <Container className="m-auto p-10 md:p-16 lg:p-24">
+      <Section className="">
+      <Container className="m-auto p-5 md:p-16 lg:px-24">
         <div>
           <div className="w-full flex justify-between items-center">
             <Heading as="h2" className="text-3xl leading-none text-emerald-900 ">
