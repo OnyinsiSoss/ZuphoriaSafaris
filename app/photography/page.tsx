@@ -40,7 +40,7 @@ const Photography = () => {
                     Expert in African photography safari drive
                   </Heading>
                   <p className="text-slate-800 text-center text-2xl px-6 sm:px-60 py-8  ">
-                      A  combines the thrill of a traditional safari drive with a focus on capturing stunning wildlife photographs. It is designed specifically for photographers who want to enhance their skills and capture memorable images of wildlife in their natural habitat.
+                      Our Photography safari drive  combines the thrill of a traditional safari drive with a focus on capturing stunning wildlife photographs. It is designed specifically for photographers who want to enhance their skills and capture memorable images of wildlife in their natural habitat.
                   </p>
 
                   <div className="p-6 sm:px-60">
@@ -53,18 +53,29 @@ const Photography = () => {
                  
                 </div>
       </Section>
- <Section className="px-6 py-20">
-        <Container className="m-auto lg:px-38">
+      <div className="">
+                  <div className="relative">
+                <Image
+                  alt="Picture of the author"
+                   src="/images/Pic-41.JPG"
+                   quality={100}
+                   width={100}
+                   height={100}
+                   sizes="100vw"
+                   style={{ zIndex:-1, width:'100vw', objectFit:'cover',position:"absolute" }}
+                />           
+          </div>
+        <Container className="m-auto text-white lg:py-14 lg:px-38"> 
           <Heading
             as="h2"
-            className="text-emerald-950 text-3xl leading-none capitalize mb-24"
+            className="text-emerald-950 text-3xl leading-none capitalize mb-14"
           >
             Highlights of a photography safari drive
           </Heading>
-          <div className="grid gap-4 sticky">
-            <div className="grid md:grid-cols-2 py-12 bg-lime-300 p-4 rounded-3xl">
+          <div className="m-auto grid md:grid-cols-3 justify-items-center gap-4 sticky">
+            <div style={{ height:"100%", background:'linear-gradient(180deg, rgba(0, 0, 0, .7),rgba(0, 0, 0, .7))'}} className="grid gap-5 py-12 relative p-4 rounded-xl">
               <div>
-                <Heading as="h2" className="text-features leading-none">
+                <Heading as="h2" className="text-white leading-none">
                   Access to prime wildlife areas:
                 </Heading>
               </div>
@@ -72,7 +83,7 @@ const Photography = () => {
                 Photography safari drives often take place in renowned national parks or private reserves known for their diverse and abundant wildlife populations. These locations offer excellent opportunities to encounter a wide range of species and capture captivating images 
               </p>
             </div>
-            <div className="grid md:grid-cols-2 py-12 bg-lime-300 p-4 rounded-3xl">
+            <div style={{ height:"100%", background:'linear-gradient(180deg, rgba(0, 0, 0, .7),rgba(0, 0, 0, .7))'}} className="grid gap-5 py-12 relative p-4 rounded-xl">
               <div>
                 <Heading as="h4" className="text-features leading-none">
                   Patient and strategic approach:
@@ -82,7 +93,7 @@ const Photography = () => {
                 Guides on a photography safari drive understand the importance of patience and positioning to achieve optimal photo opportunities. They will often spend time observing animal behavior and choose the best vantage points for capturing unique shots.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 py-12 bg-lime-300 p-4 rounded-3xl">
+            <div style={{ height:"100%", background:'linear-gradient(180deg, rgba(0, 0, 0, .7),rgba(0, 0, 0, .7))'}} className="grid gap-5 py-12 relative p-4 rounded-xl">
               <div>
                 <Heading as="h4" className="text-features leading-none">
                   Optimal lighting conditions:
@@ -92,29 +103,29 @@ const Photography = () => {
                 Guides aim to schedule safari drives during the times of day when lighting conditions are most favorable for photography. Early morning and late afternoon/early evening are known as the golden hours, when the light is softer, warmer, and creates a beautiful ambiance for photography.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 py-12 bg-lime-300 p-4 rounded-3xl">
-              <div>
+            <div style={{ height:"100%", background:'linear-gradient(180deg, rgba(0, 0, 0, .7),rgba(0, 0, 0, .7))'}} className="grid gap-5 py-12 relative p-4 rounded-xl">
+                <div>
                 <Heading as="h4" className="text-features leading-none">
                   Vehicle customization:
                 </Heading>
-              </div>
-              <p>
-                Photography safari vehicles may be specially adapted to accommodate photographers. They may have features like camera mounts, bean bags, and equipment storage to provide stability and convenience while capturing images.
-              </p>
+                </div>
+                <p>
+                  Photography safari vehicles may be specially adapted to accommodate photographers. They may have features like camera mounts, bean bags, and equipment storage to provide stability and convenience while capturing images.
+                 </p>
             </div>
-            <div className="grid md:grid-cols-2 py-12 bg-lime-300 p-4 rounded-3xl">
-              <div>
-                <Heading as="h4" className="text-features leading-none">
+            <div style={{ height:"100%", background:'linear-gradient(180deg, rgba(0, 0, 0, .7),rgba(0, 0, 0, .7))'}} className="grid gap-5 py-12 relative p-4 rounded-xl">
+               <div>
+                 <Heading as="h4" className="text-features leading-none">
                   Photography workshops:
-                </Heading>
-              </div>
-              <p>
-                Some photography safari drives include workshops or sessions led by professional photographers. These workshops can cover various aspects of wildlife photography, including composition, lighting, camera settings, and post-processing techniques.
-              </p>
+                 </Heading>
+                </div>
+                 <p>
+                   Some photography safari drives include workshops or sessions led by professional photographers. These workshops can cover various aspects of wildlife photography, including composition, lighting, camera settings, and post-processing techniques.
+                 </p>
             </div>
           </div>
         </Container>
-      </Section>
+      </div>
   
       <Section className="bg-slate-300 flex flex-col lg:flex-row gap-10 w-full p-8 md:p-32 ">
         <div>

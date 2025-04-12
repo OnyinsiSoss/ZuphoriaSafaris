@@ -10,7 +10,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const AboutUs = () => {
+const Team = () => {
   return (
     <React.Fragment>
       <div className="sm:h-screen h-1/2">
@@ -28,7 +28,7 @@ const AboutUs = () => {
                 />  
             <div className="flex flex-col justify-center items-center h-full " >
               <Heading as="h1" className=" flex text-6xl text-white">
-              About Us 
+              Our Team 
             </Heading>
             </div>
           </div>
@@ -417,5 +417,5 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Team;
  
