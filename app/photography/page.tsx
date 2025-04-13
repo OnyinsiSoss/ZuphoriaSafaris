@@ -73,7 +73,7 @@ const Photography = () => {
             Highlights of a photography safari drive
           </Heading>
           <div className="m-auto grid md:grid-cols-3 justify-items-center gap-4 sticky">
-            <div style={{ height:"100%", background:'linear-gradient(180deg, rgba(0, 0, 0, .7),rgba(0, 0, 0, .7))'}} className="grid gap-5 py-12 relative p-4 rounded-xl">
+            <div style={{ height:"100%", background:'linear-gradient(180deg, rgba(0, 0, 0, .2),rgba(0, 0, 0, .7))'}} className="grid gap-5 py-12 relative p-4 rounded-xl">
               <div>
                 <Heading as="h2" className="text-white leading-none">
                   Access to prime wildlife areas:
