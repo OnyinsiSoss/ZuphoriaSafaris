@@ -1,6 +1,7 @@
 import {
   Hero,AboutUs,Features,
-  NewLetter, Blog, 
+  NewLetter, Testimonials,
+  OurExpert, 
 } from "@/components";
 
 
@@ -10,8 +11,9 @@ export default function Home() {
         <Hero />
         <AboutUs/>
         <Features />
+        <OurExpert/>  
         <NewLetter/>  
-        <Blog/>        
+        <Testimonials/>  
 
     </main>
 

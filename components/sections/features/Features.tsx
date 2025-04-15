@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export const Features = () => {
   return (
-    <Section className="px-5">
+    <Section className="px-40">
       <Container className="m-auto">
-        <SubTitle subTitle="Services" className="" />
+        <SubTitle subTitle="Services" className=" " />
         <div>
           <div className="mb-6 sm:mb-14 pb-4">
             <Heading as="h2" className="text-emerald-900 text-2xl md:text-5xl leading-none">
@@ -14,7 +14,7 @@ export const Features = () => {
             </Heading>
           </div>
           <div className="flex flex-col justify-center  lg:flex-row gap-10 m-auto ">
-            <div style={{height:"450px", overflow:"hidden", background: 'linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3))'}} className="flex group relative rounded-xl overflow-hidden   ">
+            <div style={{height:"450px", overflow:"hidden", background: "rgba(0, 0, 0, .5)"}} className="flex group relative rounded-xl overflow-hidden   ">
               <Image
                 src="/images/Pic-10.JPG"
                 alt="Member"
@@ -22,11 +22,11 @@ export const Features = () => {
                 height={450}
                 className="w-full h-fit group-hover:scale-110 duration-300 absolute -z-10 object-cover bg-center "
               />
-              <div className="flex flex-col justify-between items-center overflow-hidden ">
+              <div className="flex flex-col items-center overflow-hidden ">
                 <Heading as="h2" className="text-3xl items-center m-auto font-semibold text-center leading-none text-white">
                       Safaris
                 </Heading>
-                <div className="flex flex-col text-white   gap-10 m-auto px-5 items-center">
+                <div className="flex flex-col gap-10 text-white p-5 ">
                   <p>
                     Are you ready to go? We have created many experiences for you, with
                     our Safari Experts and Tour Leaders. Choose the trip thats right
@@ -39,19 +39,19 @@ export const Features = () => {
               </div>
             </div>
 
-            <div style={{height:"450px", background: 'linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3))'}} className="flex group relative rounded-xl  overflow-hidden ">
+            <div style={{height:"450px", background: 'linear-gradient(180deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, .2), rgba(0, 0, 0, .9))'}} className="flex group relative rounded-xl  overflow-hidden ">
               <Image 
                 src="/images/Pic-50.JPG"
                 alt="Member"
                 width={320} 
                 height={450}
-                className="w-full h-full group-hover:scale-110 duration-300 absolute -z-10 object-cover "
+                className="w-full h-fit group-hover:scale-110 duration-300 absolute -z-10 object-cover "
               />
-              <div className="flex flex-col items-center overflow-hidden ">
-                <Heading as="h2"className="text-3xl items-center m-auto font-semibold text-center leading-none text-white">
+              <div className="flex justify-between flex-col overflow-hidden p-5">
+                <Heading as="h2"className="text-3xl font-semibold   leading-none text-white">
                       Accomodation
                 </Heading>
-                <div className="flex flex-col text-white justify-between gap-10  p-5 ">
+                <div className="flex flex-col text-white justify-between gap-10   ">
                   <p>
                     Are you ready to go? We have created many experiences for you, with
                     our Safari Experts and Tour Leaders. Choose the trip thats right

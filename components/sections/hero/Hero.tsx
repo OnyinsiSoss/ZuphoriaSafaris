@@ -22,7 +22,7 @@ const Hero = () => {
             </Heading>
           </div>
           <div className="flex flex-col mt-3 xl:mt-3 items-center justify-center ">
-            <p className="text-xl w-2/3 sm:w-full text-white mb-3 text-center capitalize">
+            <p className="text-xl w-2/3 sm:w-full text-3xl lg:text-3xl text-white mb-5 text-center capitalize">
               Turning dreams into destinations
             </p>
             <Link href="/services">

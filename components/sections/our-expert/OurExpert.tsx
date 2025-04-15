@@ -5,12 +5,12 @@ import Link from "next/link";
 
 export const OurExpert = () => {
   return (
-    <Section className="bg-secondary-950">
-      <Container>
+    <Section className="bg-emerald-950">
+      <Container className="m-auto">
         <SubTitle subTitle="Our experts" />
         <div>
           <div className="flex flex-col gap-4">
-            <Heading as="h2" className="text-section leading-none text-white">
+            <Heading as="h2" className="text-xl leading-none text-white">
               Meet our Team{" "}
             </Heading>
             <p className="text-neutral-400">
@@ -22,7 +22,7 @@ export const OurExpert = () => {
             <div className="py-8 border-b flex gap-12 items-center border-neutral-700">
               <div className="h-[90px] w-[90px] shrink-0 relative">
                 <Image
-                  src="/images/bruno.jpg"
+                  src="/images/brian.jpg"
                   alt="Expert Image"
                   width={90}
                   height={90}
@@ -32,10 +32,10 @@ export const OurExpert = () => {
               <div className="flex flex-col gap-2 sm:flex-row justify-between w-full">
                 <div className="text-white flex flex-col sm:flex-row sm:gap-32">
                   <Heading as="h3" className="text-sub-title">
-                    Jenny Wilson
+                    Nyahe Mwaura
                   </Heading>
                   <p className="text-neutral-500">
-                    Senior Sustainability Consultant
+                    Senior Travel Consultant
                   </p>
                 </div>
                 <Link href="/">
@@ -46,7 +46,7 @@ export const OurExpert = () => {
             <div className="py-8 border-b flex gap-12 items-center border-neutral-700">
               <div className="h-[90px] w-[90px] shrink-0 relative">
                 <Image
-                  src="/images/bruno.jpg"
+                  src="/images/brian.jpg"
                   alt="Expert Image"
                   width={90}
                   height={90}
@@ -56,10 +56,10 @@ export const OurExpert = () => {
               <div className="flex flex-col gap-2 sm:flex-row justify-between w-full">
                 <div className="text-white flex flex-col sm:flex-row sm:gap-32">
                   <Heading as="h3" className="text-sub-title">
-                    Jenny Wilson
+                    Mwaura Kimani
                   </Heading>
                   <p className="text-neutral-500">
-                    Senior Sustainability Consultant
+                    Senior Photographic Safari Consultant
                   </p>
                 </div>
                 <Link href="/">
@@ -70,7 +70,7 @@ export const OurExpert = () => {
             <div className="py-8 border-b flex gap-12 items-center border-neutral-700">
               <div className="h-[90px] w-[90px] shrink-0 relative">
                 <Image
-                  src="/images/bruno.jpg"
+                  src="/images/brian.jpg"
                   alt="Expert Image"
                   width={90}
                   height={90}
@@ -80,10 +80,10 @@ export const OurExpert = () => {
               <div className="flex flex-col gap-2 sm:flex-row justify-between w-full">
                 <div className="text-white flex flex-col sm:flex-row sm:gap-32">
                   <Heading as="h3" className="text-sub-title">
-                    Jenny Wilson
+                    Thomi Mwaura
                   </Heading>
                   <p className="text-neutral-500">
-                    Senior Sustainability Consultant
+                    Senior Safari Experience Consultant
                   </p>
                 </div>
                 <Link href="/">
@@ -94,7 +94,7 @@ export const OurExpert = () => {
             <div className="py-8 border-b flex gap-12 items-center border-neutral-700">
               <div className="h-[90px] w-[90px] shrink-0 relative">
                 <Image
-                  src="/images/bruno.jpg"
+                  src="/images/brian.jpg"
                   alt="Expert Image"
                   width={90}
                   height={90}
@@ -104,10 +104,10 @@ export const OurExpert = () => {
               <div className="flex flex-col gap-2 sm:flex-row justify-between w-full">
                 <div className="text-white flex flex-col sm:flex-row sm:gap-32">
                   <Heading as="h3" className="text-sub-title">
-                    Jenny Wilson
+                    Mumbi Kimani
                   </Heading>
                   <p className="text-neutral-500">
-                    Senior Sustainability Consultant
+                    Senior Destination Consultant
                   </p>
                 </div>
                 <Link href="/">
@@ -118,7 +118,7 @@ export const OurExpert = () => {
             <div className="py-8 border-b flex gap-12 items-center border-neutral-700">
               <div className="h-[90px] w-[90px] shrink-0 relative">
                 <Image
-                  src="/images/bruno.jpg"
+                  src="/images/brian.jpg"
                   alt="Expert Image"
                   width={90}
                   height={90}

@@ -1,2 +1,6 @@
 @import "tailwindcss";
 
+.carousel .slide {
+  padding: 0px 8px;
+  min-width: no ne !important;
+}

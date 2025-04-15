@@ -7,8 +7,9 @@ import { LiaTripadvisor } from "react-icons/lia";
 
 export const Footer = () => {
   return (
-      <footer className="m-auto bg-emerald-900">
-        <div className="grid lg:grid-cols-4 md:grid-cols-2  gap-5 sm:flex-cols-2 lg:flex-row justify-around ">
+    <div className="p-2 sm:p-4">
+      <footer className="m-auto bg-emerald-900 rounded-3xl">
+        <div className=" grid lg:grid-cols-4 md:grid-cols-2  gap-5 sm:flex-cols-2 lg:flex-row justify-around ">
           <div className="flex justify-center">
             <Link href="/" className="z-20 object-cover shrink flex items-center ">
                 <Image
@@ -42,10 +43,11 @@ export const Footer = () => {
           </ul>
           </div>
         </div>
-
-        <div className="m-auto text-amber-100 text-md text-center py-10  ">
+        <div className="text-amber-100 text-md text-center py-10  ">
           <p>&copy; 2025 Zuphoria Safaris. All rights reserved.</p>
         </div>
       </footer>
+    </div>
+
   );
 };

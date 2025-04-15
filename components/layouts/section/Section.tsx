@@ -6,7 +6,7 @@
   };
   export const Section = ({ children, className }: SectionTypes) => {
     return (
-      <section className={cx(" py-10 overflow-hidden", className)}>
+      <section className={cx(" overflow-hidden", className)}>
         {children}
       </section>
     );
