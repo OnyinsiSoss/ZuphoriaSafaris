@@ -7,7 +7,7 @@ type SubTitle = {
 
 export const SubTitle = ({ subTitle, className }: SubTitle) => {
   return (
-    <div className="text-5xl text-emerald-950 gap-2 border-b border-neutral-900 mb-12 sm:mb-14 pb-4">
+    <div className="text-5xl text-emerald-950 border-b border-neutral-900 mb-4 pb-4">
       <span className={cx(className)}>{subTitle}</span>
     </div>
   );

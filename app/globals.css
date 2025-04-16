@@ -1,6 +1,15 @@
 @import "tailwindcss";
 
 
+/* @font-face {
+  font-family: "angella";
+  src: url("/public/fonts/Angella.otf");
+}
+
+@font-face {
+  font-family: "bobby";
+  src: url("/public/fonts/Sebastian\ Bobby.otf");
+} */
 
 .carousel .slide {
   padding: 0px 8px;

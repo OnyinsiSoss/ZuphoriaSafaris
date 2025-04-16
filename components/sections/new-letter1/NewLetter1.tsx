@@ -7,7 +7,7 @@ export const NewLetter1 = () => {
   return (
     <section  >
       <div style={{ height:"100%", background:'linear-gradient(180deg, rgba(0, 0, 0, .7),rgba(0, 0, 0, .7))'}}  className="lg:my-30 lg:mx-60 md:mx-40 sm:m-10 m-10 px-5 py-20 rounded-xl sm:p-10 relative  md:py-20 overflow-hidden">
-      <Image
+        <Image
             src="/images/Pic-85.JPG"
             alt="Member"
             fill

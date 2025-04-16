@@ -14,41 +14,57 @@ const AboutUs = () => {
   return (
     <React.Fragment>
       <div className="sm:h-screen h-1/2">
-        <div className="" >          
-          <div className="h-[70vh], sm:h-screen, object-cover" style={{ height:"100vh", zIndex:-40 , background:'linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .3))'}}>
-                <Image
-                  alt="about-us"
-                  src="/images/Pic-6.JPG"
-                  quality={100}
-                  fill
-                  sizes="100vw"
-                  style={{
-                      objectFit:'cover', position:"absolute" , zIndex:-50 ,
-                      }}
-                />  
-            <div className="flex flex-col justify-center items-center h-full " >
-              <Heading as="h1" className=" flex text-6xl text-white">
-              About Us 
-            </Heading>
+        <div className="">
+          <div
+            className="h-[70vh], sm:h-screen, object-cover"
+            style={{
+              height: "100vh",
+              zIndex: -40,
+              background:
+                "linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .3))",
+            }}
+          >
+            <Image
+              alt="about-us"
+              src="/images/Pic-6.JPG"
+              quality={100}
+              fill
+              sizes="100vw"
+              style={{
+                objectFit: "cover",
+                position: "absolute",
+                zIndex: -50,
+              }}
+            />
+            <div className="flex flex-col justify-center items-center h-full ">
+              <Heading
+                as="h1"
+                className=" flex font-[angella] text-7xl text-white"
+              >
+                About Us
+              </Heading>
             </div>
           </div>
         </div>
       </div>
       <Section className=" w-full py-8 sm:py-32 ">
-                <div className="flex justify-center items-center flex-col gap-8">
-                  <Heading as="h2" className="md:px-32 px-8 text-2xl md:text-5xl xl:text-5xl leading-none text-gray-900 text-center capitalize">
-                    Expert in tailored African adventures
-                  </Heading>
-                  <p className="text-slate-800 text-center text-2xl px-6 sm:px-60 py-8  ">
-                  “Karibu! to Zuphoria, a travel companion rooted in the heart of Africa, Kenya. Our journey began with a simple yet profound idea: to share the beauty, diversity, and rich cultural tapestry of this incredible continent with the world.
-                  </p>
-                 
-                </div>
+        <div className="flex justify-center items-center flex-col gap-8">
+          <Heading
+            as="h2"
+            className="md:px-32 px-8 text-2xl md:text-5xl xl:text-5xl leading-none text-gray-900 text-center capitalize"
+          >
+            Expert in tailored African adventures
+          </Heading>
+          <p className="text-slate-800 text-center text-2xl px-6 sm:px-60 py-8  ">
+            “Karibu! to Zuphoria, a travel companion rooted in the heart of
+            Africa, Kenya. Our journey began with a simple yet profound idea: to
+            share the beauty, diversity, and rich cultural tapestry of this
+            incredible continent with the world.
+          </p>
+        </div>
       </Section>
 
-      
-
- <Section className="bg-emerald-900 px-6 ">
+      <Section className="bg-emerald-900 px-6 ">
         <Container className="m-auto md:px-38">
           <Heading
             as="h2"
@@ -65,7 +81,11 @@ const AboutUs = () => {
                 </Heading>
               </div>
               <p>
-               Our experienced and knowledgeable guides will accompany you throughout the safari, sharing their insights and expertise about the wildlife, culture, and history of the region. They will ensure your safety and enhance your understanding and appreciation of the African wilderness.
+                Our experienced and knowledgeable guides will accompany you
+                throughout the safari, sharing their insights and expertise
+                about the wildlife, culture, and history of the region. They
+                will ensure your safety and enhance your understanding and
+                appreciation of the African wilderness.
               </p>
             </div>
             <div className="grid md:grid-cols-1 py-12 bg-lime-300 p-4 rounded-3xl">
@@ -76,7 +96,13 @@ const AboutUs = () => {
                 </Heading>
               </div>
               <p>
-                Prepare to witness the wonders of the African savannah as you embark on thrilling game drives in open-top safari vehicles. Traverse the vast landscapes, spotting magnificent wildlife such as lions, elephants, giraffes, zebras, and a variety of bird species. Our guides will take you to the best viewing spots, maximizing your chances of encountering the Big Five (lions, elephants, buffalos, leopards, and rhinoceroses)
+                Prepare to witness the wonders of the African savannah as you
+                embark on thrilling game drives in open-top safari vehicles.
+                Traverse the vast landscapes, spotting magnificent wildlife such
+                as lions, elephants, giraffes, zebras, and a variety of bird
+                species. Our guides will take you to the best viewing spots,
+                maximizing your chances of encountering the Big Five (lions,
+                elephants, buffalos, leopards, and rhinoceroses)
               </p>
             </div>
             <div className="grid md:grid-cols-1 py-12 bg-lime-300 p-4 rounded-3xl">
@@ -87,7 +113,12 @@ const AboutUs = () => {
                 </Heading>
               </div>
               <p>
-                Explore renowned national parks and game reserves, such as the Serengeti National Park in Tanzania, Maasai Mara Reserve in Kenya, Kruger National Park in South Africa, Chobe National Park in Botswana, and Etosha National Park in Namibia. Each park offers a unique ecosystem and an abundance of wildlife, ensuring an awe-inspiring safari experience.
+                Explore renowned national parks and game reserves, such as the
+                Serengeti National Park in Tanzania, Maasai Mara Reserve in
+                Kenya, Kruger National Park in South Africa, Chobe National Park
+                in Botswana, and Etosha National Park in Namibia. Each park
+                offers a unique ecosystem and an abundance of wildlife, ensuring
+                an awe-inspiring safari experience.
               </p>
             </div>
             <div className="grid md:grid-cols-1 py-12 bg-lime-300 p-4 rounded-3xl">
@@ -98,7 +129,10 @@ const AboutUs = () => {
                 </Heading>
               </div>
               <p>
-                 Immerse yourself in the rich cultural heritage of Africa by visiting local communities and engaging with the indigenous people. Learn about their traditions, customs, and way of life, gaining a deeper understanding of the local culture.
+                Immerse yourself in the rich cultural heritage of Africa by
+                visiting local communities and engaging with the indigenous
+                people. Learn about their traditions, customs, and way of life,
+                gaining a deeper understanding of the local culture.
               </p>
             </div>
             <div className="grid md:grid-cols-1 py-12 bg-lime-300 p-4 rounded-3xl">
@@ -109,24 +143,31 @@ const AboutUs = () => {
                 </Heading>
               </div>
               <p>
-                 Enhance your safari experience with optional activities such as hot air balloon rides over the savannah, guided bush walks, night game drives, and visits to conservation projects or wildlife sanctuaries
+                Enhance your safari experience with optional activities such as
+                hot air balloon rides over the savannah, guided bush walks,
+                night game drives, and visits to conservation projects or
+                wildlife sanctuaries
               </p>
             </div>
             <div className="grid md:grid-cols-1 py-12 bg-lime-300 p-4 rounded-3xl">
               <div>
                 <span>6.</span>
                 <Heading as="h4" className="text-features leading-none">
-                  Accommodations: 
+                  Accommodations:
                 </Heading>
               </div>
               <p>
-                  Enjoy comfortable accommodations that range from luxury lodges and tented camps to eco-friendly safari resorts. These accommodations are strategically located within or near the national parks, offering stunning views and an authentic safari atmosphere.
+                Enjoy comfortable accommodations that range from luxury lodges
+                and tented camps to eco-friendly safari resorts. These
+                accommodations are strategically located within or near the
+                national parks, offering stunning views and an authentic safari
+                atmosphere.
               </p>
             </div>
           </div>
         </Container>
       </Section>
-      
+
       <Section className="bg-white">
         <Container className="m-auto">
           <Heading
@@ -153,7 +194,7 @@ const AboutUs = () => {
                       className="text-label font-semibold leading-none"
                     >
                       Bruno Truong
-                    </Heading> 
+                    </Heading>
                     <span>CTO</span>
                     <Link href="/">
                       <LindkedlnFooter />
@@ -410,7 +451,7 @@ const AboutUs = () => {
           </div>
         </Container>
       </Section>
-            <div className="">
+      <div className="">
         <NewLetter />
       </div>
     </React.Fragment>

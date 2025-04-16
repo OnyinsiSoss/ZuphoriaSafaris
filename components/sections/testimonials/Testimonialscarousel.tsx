@@ -13,7 +13,7 @@ export const Testimonialscarousel = () => {
 
   return (
     <Section className="rounded-3xl overflow-hidden">
-      <Container className="flex flex-col gap-4 rounded-3xl overflow-hidden">
+      <Container className="flex flex-col gap-10 rounded-3xl overflow-hidden">
         <SubTitle subTitle="Testimonials" />
         <div className="flex w-full">
           <Heading as="h2" className="text-3xl leading-none text-slate-500">
@@ -25,7 +25,7 @@ export const Testimonialscarousel = () => {
             swipeable
             stopOnHover={false}
             showStatus={false}
-            interval={2000}
+            interval={6000}
             showArrows={false}
             useKeyboardArrows={true}
             emulateTouch

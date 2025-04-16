@@ -13,30 +13,42 @@ const Services = () => {
   return (
     <React.Fragment>
       <div className="m-auto ">
-        <div className="" >          
-          <div style={{ height:"100vh", zIndex:-40 , background:'linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .5))'}}>
-                <Image
-                  alt="about-us"
-                  src="/images/Pic-60.JPG"
-                  quality={100}
-                  fill
-                  sizes="100vw"
-                  style={{
-                      objectFit: 'cover', position:"absolute" , zIndex:-50 ,
-                      }}
-                />  
-            <div className="flex flex-col  justify-center items-center h-full md:text-7xl text-5xl  text-white" >
-              <Heading as="h1" className= "">
-              Safari experiences 
-            </Heading>
+        <div className="">
+          <div
+            style={{
+              height: "100vh",
+              zIndex: -40,
+              background:
+                "linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .5))",
+            }}
+          >
+            <Image
+              alt="about-us"
+              src="/images/Pic-60.JPG"
+              quality={100}
+              fill
+              sizes="100vw"
+              style={{
+                objectFit: "cover",
+                position: "absolute",
+                zIndex: -50,
+              }}
+            />
+            <div className="flex flex-col font-[angella] justify-center items-center h-full md:text-7xl lg:text-8xl text-5xl  text-white">
+              <Heading as="h1" className="capitalize">
+                Safari experiences
+              </Heading>
             </div>
           </div>
         </div>
       </div>
       <Section className="bg-white">
-      <Container className="m-auto p-5 sm:px-18 md:px-12 lg:px-36">
+        <Container className="m-auto p-5 sm:px-18 md:px-12 lg:px-36">
           <div className=" ">
-            <Heading as="h2" className="text-3xl m-12 text-center text-emerald-900 ">
+            <Heading
+              as="h2"
+              className="text-3xl m-12 text-center text-emerald-900 "
+            >
               Our Collected Safaris Experiences
             </Heading>
           </div>
@@ -56,12 +68,12 @@ const Services = () => {
               <div>
                 <div>
                   <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
-                    <Link href="/service/a">
-                     Bird Watching 
-                    </Link>
+                    <Link href="/service/a">Bird Watching</Link>
                   </Heading>
                   <p className="text-neutral-900 text-xl">
-                    come see the epic widerbeast migration from the serengeti to the mara through the mara river, at the jaws of the mara crocodile and the big cats.
+                    come see the epic widerbeast migration from the serengeti to
+                    the mara through the mara river, at the jaws of the mara
+                    crocodile and the big cats.
                   </p>
                 </div>
               </div>
@@ -182,7 +194,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-      </Container>
+        </Container>
       </Section>
       <div className="">
         <NewLetter1 />

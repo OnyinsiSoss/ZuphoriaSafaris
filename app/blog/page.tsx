@@ -5,25 +5,37 @@ import Link from "next/link";
 const BlogPage = () => {
   return (
     <div className="bg-secondary-950">
-              <div className="" >          
-                <div style={{ height:"100vh", zIndex:-40 , background:'linear-gradient(180deg, rgba(0, 0, 0, .9), rgba(0, 0, 0, .7), rgba(0, 0, 0, .3))'}}>
-                      <Image
-                        alt="about-us"
-                        src="/images/Pic-31.JPG"
-                        quality={100}
-                        fill
-                        sizes="100vw"
-                        style={{
-                            objectFit: 'cover', position:"absolute" , zIndex:-50 ,
-                            }}
-                      />  
-                  <div className="flex flex-col justify-center items-center h-full " >
-                    <Heading as="h1" className=" flex text-7xl text-white">
-                    Safari Blog 
-                  </Heading>
-                  </div>
-                </div>
-            </div>
+      <div className="">
+        <div
+          style={{
+            height: "100vh",
+            zIndex: -40,
+            background:
+              "linear-gradient(180deg, rgba(0, 0, 0, .9), rgba(0, 0, 0, .7), rgba(0, 0, 0, .3))",
+          }}
+        >
+          <Image
+            alt="about-us"
+            src="/images/Pic-31.JPG"
+            quality={100}
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: "cover",
+              position: "absolute",
+              zIndex: -50,
+            }}
+          />
+          <div className="flex flex-col justify-center items-center h-full ">
+            <Heading
+              as="h1"
+              className=" flex font-[angella] text-7xl text-white"
+            >
+              Safari Blog
+            </Heading>
+          </div>
+        </div>
+      </div>
       <Container className="m-auto p-24">
         <div className="text-white">
           <Heading as="h1" className="text-hero leading-none">

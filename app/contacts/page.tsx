@@ -27,8 +27,11 @@ const ContactPage = () => {
           }}
         />
         <div className="flex flex-col justify-center items-center h-full ">
-          <Heading as="h1" className=" flex text-6xl text-white">
-            Talk to us..
+          <Heading
+            as="h1"
+            className=" flex font-[angella] md:text-7xl lg:text-8xl text-5xl text-white"
+          >
+            Talk to us
           </Heading>
         </div>
       </div>
