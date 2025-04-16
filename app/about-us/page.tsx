@@ -40,7 +40,7 @@ const AboutUs = () => {
             <div className="flex flex-col justify-center items-center h-full ">
               <Heading
                 as="h1"
-                className=" flex font-[angella] text-7xl text-white"
+                className=" flex font-[angella] md:text-7xl lg:text-8xl text-5xl text-white"
               >
                 About Us
               </Heading>
