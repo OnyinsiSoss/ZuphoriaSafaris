@@ -2,11 +2,12 @@ import { Heading, Linkedln, SubTitle } from "@/components/elements";
 import { Container, Section } from "@/components/layouts";
 import Image from "next/image";
 import Link from "next/link";
+import { FaInstagram } from "react-icons/fa6";
 
 export const OurExpert = () => {
   return (
-    <Section className="bg-emerald-950">
-      <Container className="m-auto">
+    <Section className="">
+      <Container className="">
         <SubTitle subTitle="Our experts" />
         <div>
           <div className="flex flex-col gap-4">
@@ -34,13 +35,15 @@ export const OurExpert = () => {
                   <Heading as="h3" className="text-sub-title">
                     Nyahe Mwaura
                   </Heading>
-                  <p className="text-neutral-500">
-                    Senior Travel Consultant
-                  </p>
+                  <p className="text-neutral-500">Senior Travel Consultant</p>
                 </div>
-                <Link href="/">
-                  <Linkedln />
-                </Link>
+                <a
+                  className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"
+                  href="https://instagram.com/zuphoriazurusafaris"
+                  target="blank"
+                >
+                  <FaInstagram />
+                </a>
               </div>
             </div>
             <div className="py-8 border-b flex gap-12 items-center border-neutral-700">
@@ -62,9 +65,13 @@ export const OurExpert = () => {
                     Senior Photographic Safari Consultant
                   </p>
                 </div>
-                <Link href="/">
-                  <Linkedln />
-                </Link>
+                <a
+                  className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"
+                  href="https://instagram.com/zuphoriazurusafaris"
+                  target="blank"
+                >
+                  <FaInstagram />
+                </a>
               </div>
             </div>
             <div className="py-8 border-b flex gap-12 items-center border-neutral-700">
@@ -86,9 +93,13 @@ export const OurExpert = () => {
                     Senior Safari Experience Consultant
                   </p>
                 </div>
-                <Link href="/">
-                  <Linkedln />
-                </Link>
+                <a
+                  className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"
+                  href="https://instagram.com/zuphoriazurusafaris"
+                  target="blank"
+                >
+                  <FaInstagram />
+                </a>
               </div>
             </div>
             <div className="py-8 border-b flex gap-12 items-center border-neutral-700">
@@ -110,9 +121,13 @@ export const OurExpert = () => {
                     Senior Destination Consultant
                   </p>
                 </div>
-                <Link href="/">
-                  <Linkedln />
-                </Link>
+                <a
+                  className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"
+                  href="https://instagram.com/zuphoriazurusafaris"
+                  target="blank"
+                >
+                  <FaInstagram />
+                </a>
               </div>
             </div>
             <div className="py-8 border-b flex gap-12 items-center border-neutral-700">

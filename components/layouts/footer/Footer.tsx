@@ -18,7 +18,7 @@ export const Footer = () => {
                 />           
             </Link>            
           </div>
-          <div className="flex  items-center justify-center capitalize">
+          <div className="flex  items-center justify-start lg:justify-center capitalize">
             <ul className="text-xl text-amber-100">
               <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-300"><a href="/about-us">about us</a></li>
               <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-300"><a href="/services">Our Safaris</a></li>
@@ -27,14 +27,14 @@ export const Footer = () => {
               <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-300"><a href="#">Enquire more</a></li>
             </ul>
           </div>          
-          <div className="flex items-center gap-10 flex-col justify-center">
+          <div className="flex  gap-10 flex-col justify-start lg:justify-center">
             <ul className="text-xl  gap-10 text-amber-100">
               <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-500"><a href="tel:+254716605815">(123) 456-7890</a></li>
               <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-500"><a href="#">123 Lanet road, Nakuru</a></li>
               <li className="transition-all ease-in-out hover:scale-110 hover:text-amber-500"><a href="mailto:samuelonyinsi@gmail.com"> zuphoriasafaris@gmail.com</a></li>
             </ul>
           </div>
-          <div className="flex items-center justify-center  ">
+          <div className="flex items-center justify-start lg:justify-center  ">
           <ul className="flex gap-5" >
             <li className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"><a href="#">< FaYoutube/></a></li>
             <li className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"><a href="https://www.facebook.com/Zuphoria-Safaris-61571774026027/" target='blank'>< FaFacebook/></a></li>

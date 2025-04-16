@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export const Features = () => {
   return (
-    <Section className="px-40">
-      <Container className="m-auto">
+    <Section className="">
+      <Container className=" ">
         <SubTitle subTitle="Services" className=" " />
         <div>
           <div className="mb-6 sm:mb-14 pb-4">
