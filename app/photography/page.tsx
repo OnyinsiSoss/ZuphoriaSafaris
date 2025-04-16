@@ -75,7 +75,7 @@ const Photography = () => {
             "linear-gradient(180deg, rgba(0, 0, 0, .9), rgba(0, 0, 0, .5),rgba(0, 0, 0, .7))",
         }}
         className="flex flex-col relative"
-      >
+       >
         <Image
           alt="Picture of the author"
           src="/images/Pic-42.JPG"
