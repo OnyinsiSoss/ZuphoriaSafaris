@@ -1,7 +1,6 @@
-import { Heading, Linkedln, SubTitle } from "@/components/elements";
+import { Heading, SubTitle } from "@/components/elements";
 import { Container, Section } from "@/components/layouts";
 import Image from "next/image";
-import Link from "next/link";
 import { FaInstagram } from "react-icons/fa6";
 
 export const OurExpert = () => {
@@ -32,7 +31,7 @@ export const OurExpert = () => {
               </div>
               <div className="flex flex-col gap-2 sm:flex-row justify-between w-full">
                 <div className="text-white flex flex-col sm:flex-row sm:gap-32">
-                  <Heading as="h3" className="text-sub-title">
+                  <Heading as="h3" className=" text-neutral-500">
                     Nyahe Mwaura
                   </Heading>
                   <p className="text-neutral-500">Senior Travel Consultant</p>
@@ -49,7 +48,7 @@ export const OurExpert = () => {
             <div className="py-8 border-b flex gap-12 items-center border-neutral-700">
               <div className="h-[90px] w-[90px] shrink-0 relative">
                 <Image
-                  src="/images/brian.jpg"
+                  src="/images/kim.jpg"
                   alt="Expert Image"
                   width={90}
                   height={90}
@@ -77,7 +76,7 @@ export const OurExpert = () => {
             <div className="py-8 border-b flex gap-12 items-center border-neutral-700">
               <div className="h-[90px] w-[90px] shrink-0 relative">
                 <Image
-                  src="/images/brian.jpg"
+                  src="/images/james.jpg"
                   alt="Expert Image"
                   width={90}
                   height={90}
@@ -105,7 +104,7 @@ export const OurExpert = () => {
             <div className="py-8 border-b flex gap-12 items-center border-neutral-700">
               <div className="h-[90px] w-[90px] shrink-0 relative">
                 <Image
-                  src="/images/brian.jpg"
+                  src="/images/mumbi.jpg"
                   alt="Expert Image"
                   width={90}
                   height={90}
@@ -114,7 +113,7 @@ export const OurExpert = () => {
               </div>
               <div className="flex flex-col gap-2 sm:flex-row justify-between w-full">
                 <div className="text-white flex flex-col sm:flex-row sm:gap-32">
-                  <Heading as="h3" className="text-sub-title">
+                  <Heading as="h3" className="text-sub-title text-slate-500">
                     Mumbi Kimani
                   </Heading>
                   <p className="text-neutral-500">
@@ -128,30 +127,6 @@ export const OurExpert = () => {
                 >
                   <FaInstagram />
                 </a>
-              </div>
-            </div>
-            <div className="py-8 border-b flex gap-12 items-center border-neutral-700">
-              <div className="h-[90px] w-[90px] shrink-0 relative">
-                <Image
-                  src="/images/brian.jpg"
-                  alt="Expert Image"
-                  width={90}
-                  height={90}
-                  className="w-full h-full object-cover rounded-xl"
-                />
-              </div>
-              <div className="flex flex-col gap-2 sm:flex-row justify-between w-full">
-                <div className="text-white flex flex-col sm:flex-row sm:gap-32">
-                  <Heading as="h3" className="text-sub-title">
-                    Jenny Wilson
-                  </Heading>
-                  <p className="text-neutral-500">
-                    Senior Sustainability Consultant
-                  </p>
-                </div>
-                <Link href="/">
-                  <Linkedln />
-                </Link>
               </div>
             </div>
           </div>
