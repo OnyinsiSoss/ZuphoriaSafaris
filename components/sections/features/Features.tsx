@@ -1,4 +1,4 @@
-import { Container, Heading, Section, SubTitle, Button } from "@/components";
+import { Container, Heading, Section, Button } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,15 +6,20 @@ export const Features = () => {
   return (
     <Section className="">
       <Container className=" ">
-        <SubTitle subTitle="Services" className=" " />
-        <div>
-          <div className="mb-6 sm:mb-14 pb-4">
+        {/* <SubTitle subTitle="Services" className=" " /> */}
+        <div className=" flex flex-col gap-16">
+          <div className=" flex flex-col gap-4">
             <Heading
               as="h2"
-              className="text-emerald-900 text-2xl md:text-5xl leading-none"
+              className="text-emerald-900 md:text-5xl lg:text-8 xl text-3xl font-[angella] leading-none "
             >
-              Let us build your dream vacation
+              Explore Our Safari Collections
             </Heading>
+            <p className="text-slate-800 text-xl">
+              We create personalised safaris in Kenya and across Eastern Africa,
+              designed just for you. From your first inquiry to the end of your
+              adventure, our expert team will be with you all the way!
+            </p>
           </div>
           <div className="flex flex-col justify-center  lg:flex-row gap-10 m-auto ">
             <div

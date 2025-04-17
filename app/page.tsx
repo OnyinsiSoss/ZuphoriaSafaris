@@ -4,6 +4,7 @@ import {
   OurExpert,
   Testimonialscarousel, 
 } from "@/components";
+import { AboutUs2 } from "@/components/sections/about-us/AboutUs2";
 
 
 export default function Home() {
@@ -11,10 +12,11 @@ export default function Home() {
     <main className="no-scrollbar p-2 md:p-4 overflow-hidden ">
       <Hero />
       <AboutUs />
+      <AboutUs2/>
       <Features />
       <OurExpert />
+      <Testimonialscarousel />
       <NewLetter />
-        <Testimonialscarousel />
     </main>
   );
 }
