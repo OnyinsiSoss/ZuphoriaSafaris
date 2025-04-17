@@ -1,12 +1,12 @@
 import {
   Container,
   Heading,
-  LindkedlnFooter,
   NewLetter,
   Section,
 } from "@/components";
+import AboutUsCarousel from "@/components/sections/about-us/AboutUsCarousel";
+import AboutUsCarousell from "@/components/sections/about-us/AboutUsCarousell";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import { FaInstagram } from "react-icons/fa6";
 
@@ -48,27 +48,49 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <Section className=" w-full py-8 sm:py-32 ">
-        <div className="flex justify-center items-center flex-col gap-8">
-          <Heading
-            as="h2"
-            className="md:px-32 px-8 text-2xl md:text-5xl xl:text-5xl leading-none text-gray-900 text-center capitalize"
-          >
-            Expert in tailored African adventures
-          </Heading>
-          <p className="text-slate-800 text-center text-2xl px-6 sm:px-60 py-8  ">
-            “Karibu! to Zuphoria, a travel companion rooted in the heart of
-            Africa, Kenya. Our journey began with a simple yet profound idea: to
-            share the beauty, diversity, and rich cultural tapestry of this
-            incredible continent with the world.
-          </p>
-        </div>
+      <Section className="">
+        <Container className="">
+          <div className="flex justify-center items-center flex-col gap-16">
+            <Heading
+              as="h2"
+              className="text-emerald-950 md:text-5xl text-center lg:text-7xl text-2xl font-[angella] leading-none"
+            >
+              “Karibu! to Zuphoria
+            </Heading>
+            <p className="text-slate-800 text-center text-2xl">
+              a travel companion rooted in the heart of Africa, Kenya. Our
+              journey began with a simple yet profound idea: to share the
+              beauty, diversity, and rich cultural tapestry of this incredible
+              continent with the world.
+            </p>
+
+            <p className="text-slate-800 text-center text-2xl ">
+              Nestled in the vibrant landscapes of Kenya, we are more than just
+              a tourism company; we are storytellers, weaving the tales of
+              Africa’s wonders. From the majestic savannahs teeming with
+              wildlife to the pristine beaches along the Indian Ocean, our
+              mission is to showcase the unparalleled beauty that East Africa,
+              and specifically Kenya, has to offer.
+            </p>
+
+            <div className="">
+              <AboutUsCarousell />
+            </div>
+
+            <p className="text-slate-800 text-center align-middle text-2xl  ">
+              What sets us apart is our commitment to responsible and
+              sustainable travel. We believe in leaving a positive impact on the
+              places we visit, supporting local communities, and preserving the
+              natural beauty that makes Kenya a jewel in Africa’s crown.
+            </p>
+          </div>
+        </Container>
       </Section>
       <div
         style={{
           height: "100%",
           background:
-            "linear-gradient(180deg, rgba(0, 0, 0, .9), rgba(0, 0, 0, .5),rgba(0, 0, 0, .7))",
+            "linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .5),rgba(0, 0, 0, .5))",
         }}
         className="flex flex-col relative"
       >
@@ -88,7 +110,7 @@ const AboutUs = () => {
           <Container className="text-center text-white">
             <Heading
               as="h2"
-              className="text-white text-7xl font-[angella]  mb-12"
+              className="text-white md:text-3xl text-center lg:text-7xl text-xl font-[angella] leading-none  mb-12 lg:mb-24"
             >
               Highlights of our African Safari Drive:
             </Heading>
@@ -97,13 +119,15 @@ const AboutUs = () => {
                 style={{
                   height: "100%",
                   background:
-                    "linear-gradient(180deg, rgba(0, 0, 0, .9), rgba(0, 0, 0, .5),rgba(0, 0, 0, .7))",
+                    "linear-gradient(180deg,rgba(0, 0, 0, .4),rgba(0, 0, 0, .4))",
                 }}
                 className="grid md:grid-cols-1 py-12 p-4 rounded-3xl"
               >
                 <div>
-                  <span>1.</span>
-                  <Heading as="h4" className="text-features leading-none">
+                  <Heading
+                    as="h4"
+                    className="text-white md:text-3xl text-center lg:text-5xl text-xl font-[angella] leading-none  mb-6"
+                  >
                     Expert Guides
                   </Heading>
                 </div>
@@ -119,13 +143,15 @@ const AboutUs = () => {
                 style={{
                   height: "100%",
                   background:
-                    "linear-gradient(180deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .9),rgba(0, 0, 0, .5))",
+                    "linear-gradient(180deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4))",
                 }}
                 className="grid md:grid-cols-1 py-12 p-4 rounded-3xl"
               >
                 <div>
-                  <span>2.</span>
-                  <Heading as="h4" className="text-features leading-none">
+                  <Heading
+                    as="h4"
+                    className="text-white md:text-3xl text-center lg:text-5xl text-xl font-[angella] leading-none  mb-6"
+                  >
                     Game Drives:
                   </Heading>
                 </div>
@@ -143,13 +169,15 @@ const AboutUs = () => {
                 style={{
                   height: "100%",
                   background:
-                    "linear-gradient(180deg, rgba(0, 0, 0, .9), rgba(0, 0, 0, .5),rgba(0, 0, 0, .7))",
+                    "linear-gradient(180deg, rgba(0, 0, 0, .4),rgba(0, 0, 0, .4))",
                 }}
                 className="grid md:grid-cols-1 py-12 p-4 rounded-3xl"
               >
                 <div>
-                  <span>3.</span>
-                  <Heading as="h4" className="text-features leading-none">
+                  <Heading
+                    as="h4"
+                    className="text-white md:text-3xl text-center lg:text-5xl text-xl font-[angella] leading-none  mb-6"
+                  >
                     National Parks and Reserves:
                   </Heading>
                 </div>
@@ -171,8 +199,10 @@ const AboutUs = () => {
                 className="grid md:grid-cols-1 py-12 p-4 rounded-3xl"
               >
                 <div>
-                  <span>4.</span>
-                  <Heading as="h4" className="text-features leading-none">
+                  <Heading
+                    as="h4"
+                    className="text-white md:text-3xl text-center lg:text-5xl text-xl font-[angella] leading-none  mb-6"
+                  >
                     Cultural Encounters:
                   </Heading>
                 </div>
@@ -192,8 +222,10 @@ const AboutUs = () => {
                 className="grid md:grid-cols-1 py-12 p-4 rounded-3xl"
               >
                 <div>
-                  <span>5.</span>
-                  <Heading as="h4" className="text-features leading-none">
+                  <Heading
+                    as="h4"
+                    className="text-white md:text-3xl text-center lg:text-5xl text-xl font-[angella] leading-none  mb-6"
+                  >
                     Optional Activities:
                   </Heading>
                 </div>
@@ -213,8 +245,10 @@ const AboutUs = () => {
                 className="grid md:grid-cols-1 py-12 p-4 rounded-3xl"
               >
                 <div>
-                  <span>6.</span>
-                  <Heading as="h4" className="text-features leading-none">
+                  <Heading
+                    as="h4"
+                    className="text-white md:text-3xl text-center lg:text-5xl text-xl font-[angella] leading-none  mb-6"
+                  >
                     Accommodations:
                   </Heading>
                 </div>
@@ -235,13 +269,13 @@ const AboutUs = () => {
         <Container className="m-auto">
           <Heading
             as="h2"
-            className="text-emerald-900 text-5xl leading-none mb-24"
+            className="text-emerald-950 md:text-5xl text-center lg:text-7xl text-2xl font-[angella] leading-none mb-16"
           >
             Our Team of Travel Experts
           </Heading>
 
-          <div className="grid  md:grid-cols-3 gap-4">
-            <div className="col-span-1 group relative h-[480px] rounded-xl overflow-hidden grayscale-75 transition-all duration-900 ease-in-out hover:grayscale-0">
+          <div className="grid text-white sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="col-span-1  group relative h-[450px] rounded-xl overflow-hidden ">
               <Image
                 src="/images/brian.jpg"
                 alt="Member"
@@ -249,12 +283,15 @@ const AboutUs = () => {
                 height={450}
                 className="w-full h-full object-cover group-hover:scale-110 duration-300"
               />
-              <div className="absolute group bottom-2 overflow-hidden px-2  backdrop-blur-2xl w-full">
-                <div className="bg-primary-300 flex-col group-hover:h-[240px] min-h-15 h-0 duration-300 px-6 py-2  flex justify-between rounded-xl">
+              <div className="absolute group bottom-2 overflow-hidden px-2 greyscale-100 backdrop-blur-2xl w-full">
+                <div className="bg-primary-300 flex-col group-hover:h-[240px] min-h-15 h-0 duration-300 p-2  flex justify-between rounded-xl">
                   <div className="flex justify-between items-center">
-                    <Heading as="h4" className="text-white leading-none">
-                      Brian Mwaura
-                    </Heading>
+                    <div className="flex flex-col gap-2">
+                      <Heading as="h4" className="text-xl leading-none">
+                        Brian Mwaura
+                      </Heading>
+                      <span className=" leading-none">Safari Advisor</span>
+                    </div>
                     <a
                       className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"
                       href="https://instagram.com/zuphoriazurusafaris"
@@ -263,31 +300,13 @@ const AboutUs = () => {
                       <FaInstagram />
                     </a>
                   </div>
-                  <ul className="h-0 text-white translate-y-3 my-4 group-hover:translate-y-0 group-hover:h-full duration-300">
-                    <span>Senior Travel Advisor</span>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                  </ul>
+                  {/* <ul className="h-0 translate-y-3 my-4 group-hover:translate-y-0 group-hover:h-full duration-300">
+                    <li className="text-sub-title">Senior </li>
+                  </ul> */}
                 </div>
               </div>
             </div>
-            <div className="col-span-1 group relative h-[480px] rounded-xl overflow-hidden blur-[1px] hover:blur-none">
+            <div className="col-span-1 group relative h-[450px] rounded-xl overflow-hidden ">
               <Image
                 src="/images/kim.jpg"
                 alt="Member"
@@ -296,15 +315,15 @@ const AboutUs = () => {
                 className="w-full h-full object-cover group-hover:scale-110 duration-300"
               />
               <div className="absolute group bottom-2 overflow-hidden px-2  backdrop-blur-2xl w-full">
-                <div className="bg-primary-300 flex-col group-hover:h-[240px] min-h-15 h-0 duration-300 px-6 py-2  flex justify-between rounded-xl">
+                <div className="bg-primary-300 flex-col group-hover:h-[240px] min-h-15 h-0 duration-300 p-2  flex justify-between rounded-xl">
                   <div className="flex justify-between items-center">
-                    <Heading
-                      as="h4"
-                      className="text-white  font-semibold leading-none"
-                    >
-                      Kimani Mwaura
-                    </Heading>
-                    <span>CTO</span>
+                    <div className="flex flex-col gap-2">
+                      <Heading as="h4" className="text-xl leading-none">
+                        Kimani Mwaura
+                      </Heading>
+                      <span className=" leading-none">Safari Director</span>
+                    </div>
+
                     <a
                       className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"
                       href="https://instagram.com/zuphoriazurusafaris"
@@ -313,30 +332,13 @@ const AboutUs = () => {
                       <FaInstagram />
                     </a>
                   </div>
-                  <ul className="h-0 text-white translate-y-3 my-4 group-hover:translate-y-0 group-hover:h-full duration-300">
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                  </ul>
+                  {/* <ul className="h-0 text-white translate-y-3 my-4 group-hover:translate-y-0 group-hover:h-full duration-300">
+                    <li className="text-sub-title">Senior Travel Advisor</li>
+                  </ul> */}
                 </div>
               </div>
             </div>
-            <div className="col-span-1 group relative h-[480px] rounded-xl overflow-hidden">
+            <div className="col-span-1 group relative h-[450px] rounded-xl overflow-hidden">
               <Image
                 src="/images/james.jpg"
                 alt="Member"
@@ -345,15 +347,14 @@ const AboutUs = () => {
                 className="w-full h-full object-cover group-hover:scale-110 duration-300"
               />
               <div className="absolute group bottom-2 overflow-hidden px-2  backdrop-blur-2xl w-full">
-                <div className="bg-primary-300 flex-col group-hover:h-[240px] min-h-15 h-0 duration-300 px-6 py-2  flex justify-between rounded-xl">
+                <div className="bg-primary-300 flex-col group-hover:h-[240px] min-h-15 h-0 duration-300 p-2  flex justify-between rounded-xl">
                   <div className="flex justify-between items-center">
-                    <Heading
-                      as="h4"
-                      className="text-label font-semibold leading-none"
-                    >
-                      James Mwaura
-                    </Heading>
-                    <span>CTO</span>
+                    <div className="flex flex-col gap-2">
+                      <Heading as="h4" className="text-xl leading-none">
+                        James Mwaura
+                      </Heading>
+                      <span className=" leading-none">Safari Co-ordinator</span>
+                    </div>
                     <a
                       className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"
                       href="https://instagram.com/zuphoriazurusafaris"
@@ -362,47 +363,29 @@ const AboutUs = () => {
                       <FaInstagram />
                     </a>
                   </div>
-                  <ul className="h-0 translate-y-3 my-4 group-hover:translate-y-0 group-hover:h-full duration-300">
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                  </ul>
+                  {/* <ul className="h-0 translate-y-3 my-4 group-hover:translate-y-0 group-hover:h-full duration-300">
+                    <li className="text-sub-title">Senior Travel Advisor</li>
+                  </ul> */}
                 </div>
               </div>
             </div>{" "}
-            <div className="col-span-1 relative h-[600px] rounded-xl overflow-hidden">
+            <div className="col-span-1 group relative h-[450px] rounded-xl overflow-hidden">
               <Image
                 src="/images/mumbi.jpg"
                 alt="Member"
                 width={320}
                 height={450}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover group-hover:scale-110 duration-300"
               />
-              <div className="absolute group bottom-2 overflow-hidden px-2  backdrop-blur-2xl w-full">
-                <div className="bg-primary-300 flex-col group-hover:h-[240px] min-h-15 h-0 duration-300 px-6 py-2  flex justify-between rounded-xl">
+              <div className="absolute group bottom-2 overflow-hidden px-2  backdrop-blur-xl w-full">
+                <div className="bg-primary-300 flex-col group-hover:h-[240px] min-h-15 h-0 duration-300 p-2 flex gap-1 justify-between rounded-xl">
                   <div className="flex justify-between items-center">
-                    <Heading
-                      as="h4"
-                      className="text-label font-semibold leading-none"
-                    >
-                      Mumbi Wanjohi
-                    </Heading>
-                    <span>CTO</span>
+                    <div className="flex flex-col gap-2">
+                      <Heading as="h4" className="text-xl leading-none">
+                        Mumbi Wanjohi
+                      </Heading>
+                      <span className=" leading-none">Safari Advisor</span>
+                    </div>
                     <a
                       className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"
                       href="https://instagram.com/zuphoriazurusafaris"
@@ -411,119 +394,33 @@ const AboutUs = () => {
                       <FaInstagram />
                     </a>
                   </div>
-                  <ul className="h-0 translate-y-3 my-4 group-hover:translate-y-0 group-hover:h-full duration-300">
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                  </ul>
+                  {/* <ul className="h-0 translate-y-3 my-4 group-hover:translate-y-0 group-hover:h-full duration-300">
+                    <li className="text-sub-title">Senior </li>
+                  </ul> */}
                 </div>
               </div>
             </div>{" "}
-            <div className="col-span-1 relative h-[600px] rounded-xl overflow-hidden">
-              <Image
-                src="/images/pic-10.jpg"
-                alt="Member"
-                width={320}
-                height={450}
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute group bottom-2 overflow-hidden px-2  backdrop-blur-2xl w-full">
-                <div className="bg-primary-300 flex-col group-hover:h-[240px] min-h-10 h-0 duration-300 px-6 py-2  flex justify-between rounded-xl">
-                  <div className="flex justify-between items-center">
-                    <Heading
-                      as="h4"
-                      className="text-label font-semibold leading-none"
-                    >
-                      Bruno Truong
-                    </Heading>
-                    <span>CTO</span>
-                    <Link href="/">
-                      <LindkedlnFooter />
-                    </Link>
-                  </div>
-                  <ul className="h-0 translate-y-3 my-4 group-hover:translate-y-0 group-hover:h-full duration-300">
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>{" "}
-            <div className="col-span-1 relative h-[600px] rounded-xl overflow-hidden">
-              <Image
-                src="/images/pic-10.jpg"
-                alt="Member"
-                width={320}
-                height={450}
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute group bottom-2 overflow-hidden px-2  backdrop-blur-2xl w-full">
-                <div className="bg-primary-300 flex-col group-hover:h-[240px] min-h-10 h-0 duration-300 px-6 py-2  flex justify-between rounded-xl">
-                  <div className="flex justify-between items-center">
-                    <Heading
-                      as="h4"
-                      className="text-label font-semibold leading-none"
-                    >
-                      Bruno Truong
-                    </Heading>
-                    <span>CTO</span>
-                    <Link href="/">
-                      <LindkedlnFooter />
-                    </Link>
-                  </div>
-                  <ul className="h-0 translate-y-3 my-4 group-hover:translate-y-0 group-hover:h-full duration-300">
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                    <li className="text-sub-title">
-                      4 year in Energy Industry
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+          </div>
+        </Container>
+      </Section>
+      <Section className="">
+        <Container className="flex flex-col lg:flex-row gap-10">
+          <div>
+            <AboutUsCarousel />
+          </div>
+          <div className="flex flex-col m-auto gap-16">
+            <p className="text-slate-800 text-center align-middle text-xl  ">
+              We don’t just organize trips; we craft experiences. Whether you
+              dream of embarking on a safari, exploring ancient cultures, or
+              unwinding in the tranquility of nature, we are here to turn those
+              dreams into reality. Our team, comprised of passionate locals and
+              seasoned travelers, is dedicated to ensuring your journey is not
+              just a vacation but a transformative adventure.
+            </p>
+            <p className="text-slate-800 text-center align-middle text-xl  ">
+              Join us as we unlock the secrets of Kenya, revealing a world of
+              warmth, hospitality, and awe-inspiring landscapes.
+            </p>
           </div>
         </Container>
       </Section>

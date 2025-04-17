@@ -9,11 +9,11 @@ import { AboutUs2 } from "@/components/sections/about-us/AboutUs2";
 
 export default function Home() {
   return (
-    <main className="no-scrollbar p-2 md:p-4 overflow-hidden ">
+    <main className="no-scrollbar overflow-hidden ">
       <Hero />
       <AboutUs />
-      <AboutUs2/>
-      <Features />
+      <Features /> 
+      <AboutUs2 />
       <OurExpert />
       <Testimonialscarousel />
       <NewLetter />

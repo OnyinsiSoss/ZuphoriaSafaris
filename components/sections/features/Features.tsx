@@ -8,10 +8,10 @@ export const Features = () => {
       <Container className=" ">
         {/* <SubTitle subTitle="Services" className=" " /> */}
         <div className=" flex flex-col gap-16">
-          <div className=" flex flex-col gap-4">
+          <div className=" flex flex-col gap-8">
             <Heading
               as="h2"
-              className="text-emerald-900 md:text-5xl lg:text-8 xl text-3xl font-[angella] leading-none "
+              className="text-emerald-900 md:text-5xl lg:text-8xl text-3xl font-[angella] leading-none "
             >
               Explore Our Safari Collections
             </Heading>
@@ -40,7 +40,7 @@ export const Features = () => {
               <div className="flex flex-col justify-between overflow-hidden p-8 ">
                 <Heading
                   as="h2"
-                  className="text-6xl font-[angella] items-center m-autotext-center leading-none text-white"
+                  className="text-6xl font-[angella] leading-none text-white"
                 >
                   Safaris
                 </Heading>

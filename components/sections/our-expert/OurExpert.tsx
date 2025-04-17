@@ -5,9 +5,9 @@ import { FaInstagram } from "react-icons/fa6";
 
 export const OurExpert = () => {
   return (
-    <Section className="">
+    <Section className="bg-emerald-950">
       <Container className="">
-        <SubTitle subTitle="Our experts" />
+        <SubTitle className="text-white" subTitle="Our experts" />
         <div>
           <div className="flex flex-col gap-4">
             <Heading as="h2" className="text-xl leading-none text-white">

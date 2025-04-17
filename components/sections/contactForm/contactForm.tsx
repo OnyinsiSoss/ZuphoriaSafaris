@@ -6,7 +6,7 @@ import { Container } from '@/components/layouts';
 export const ContactForm = () => {
   return (
     <section className="rounded-xl bg-slate-200">
-      <Container className="flex flex-col  items-center rounded-xl m-auto lg:m-40 shadow-xl/40 w-screen">
+      <Container className="flex flex-col items-center rounded-xl m-auto shadow-xl/40 w-screen">
         <div className=" sm:w-2/3 flex justify-center items-center">
           <form className="p-5 md:p-20 flex items-center flex-col gap-20 rounded-4xl">
             <Heading
