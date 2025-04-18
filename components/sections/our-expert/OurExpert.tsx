@@ -5,15 +5,13 @@ import { FaInstagram } from "react-icons/fa6";
 
 export const OurExpert = () => {
   return (
-    <Section className="bg-emerald-950">
+    <Section className="bg-white">
       <Container className="">
-        <SubTitle className="text-white" subTitle="Our experts" />
         <div>
           <div className="flex flex-col gap-4">
-            <Heading as="h2" className="text-xl leading-none text-white">
-              Meet our Team{" "}
-            </Heading>
-            <p className="text-neutral-400">
+            <SubTitle className="text-emerald-950" subTitle="Meet our Team" />
+
+            <p className="text-stone-800 text-xl">
               Our team boasts top safari enthusiasts, driving innovation in
               sustainability.
             </p>
@@ -31,10 +29,10 @@ export const OurExpert = () => {
               </div>
               <div className="flex flex-col gap-2 sm:flex-row justify-between w-full">
                 <div className="text-white flex flex-col sm:flex-row sm:gap-32">
-                  <Heading as="h3" className=" text-neutral-500">
+                  <Heading as="h3" className="text-xl text-emerald-950">
                     Nyahe Mwaura
                   </Heading>
-                  <p className="text-neutral-500">Senior Travel Consultant</p>
+                  <p className="text-neutral-800">Senior Travel Consultant</p>
                 </div>
                 <a
                   className="w-[40px] hover:bg-amber-100 bg-stone-500 h-[40px] flex items-center justify-center rounded-full transition-all ease-in-out hover:scale-110 text-xl hover:text-stone-500 text-amber-100"
@@ -57,10 +55,10 @@ export const OurExpert = () => {
               </div>
               <div className="flex flex-col gap-2 sm:flex-row justify-between w-full">
                 <div className="text-white flex flex-col sm:flex-row sm:gap-32">
-                  <Heading as="h3" className="text-sub-title">
+                  <Heading as="h3" className="text-xl text-emerald-950">
                     Mwaura Kimani
                   </Heading>
-                  <p className="text-neutral-500">
+                  <p className="text-neutral-800">
                     Senior Photographic Safari Consultant
                   </p>
                 </div>
@@ -85,10 +83,10 @@ export const OurExpert = () => {
               </div>
               <div className="flex flex-col gap-2 sm:flex-row justify-between w-full">
                 <div className="text-white flex flex-col sm:flex-row sm:gap-32">
-                  <Heading as="h3" className="text-sub-title">
+                  <Heading as="h3" className="text-xl text-emerald-950">
                     Thomi Mwaura
                   </Heading>
-                  <p className="text-neutral-500">
+                  <p className="text-neutral-800">
                     Senior Safari Experience Consultant
                   </p>
                 </div>
@@ -113,10 +111,10 @@ export const OurExpert = () => {
               </div>
               <div className="flex flex-col gap-2 sm:flex-row justify-between w-full">
                 <div className="text-white flex flex-col sm:flex-row sm:gap-32">
-                  <Heading as="h3" className="text-sub-title text-slate-500">
+                  <Heading as="h3" className="text-xl text-emerald-950">
                     Mumbi Kimani
                   </Heading>
-                  <p className="text-neutral-500">
+                  <p className="text-neutral-800">
                     Senior Destination Consultant
                   </p>
                 </div>

@@ -16,15 +16,15 @@ export const NewLetter = () => {
           />
       <div className=" m-auto">
         <div className="flex items-center flex-col gap-7">
-          <Heading as="h1" className="text-5xl text-center text-stone-50 leading-none ">
-            Your Safari starts here,         
+          <Heading as="h1" className="sm:text-3xl text-center text-stone-50 leading-none ">
+            Subscribe to our newsletter         
           </Heading>
           <p className=" sm:text-2xl text-stone-100 text-center">
-            Subscribe to our newsletter for updates, special offers, and travel inspiration
+             for updates, special offers, and travel inspiration
             {/* Enquire now and one of our travel designers will be in touch with you shortly */}
           </p>
             
-          <div className="flex  flex-col w-fill gap-5 sm:items-center ">
+          <div className="flex  md:flex-row flex-col w-fill gap-5 sm:items-center ">
             <input 
               placeholder="Your First Name"
               className="py-3 px-3 rounded-md  bg-white text-emerald-950"
@@ -35,7 +35,7 @@ export const NewLetter = () => {
             />            
           </div>
            <Link rel="stylesheet" href="/contacts">
-              <Button className="uppercase" variant="secondary">
+              <Button className="uppercase " variant="secondary">
                 Get in touch
                 </Button>
             </Link>

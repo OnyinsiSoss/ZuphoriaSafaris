@@ -7,7 +7,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <Section className="bg-secondary-950 h-screen flex flex-col gap-32 justify-center items-center">
-      <Container >
+      <Container className="overflow-hidden" >
         <div className="grid  grid-rows-1 xl:grid-rows-2">
           <Image
             src="/images/157.JPG"

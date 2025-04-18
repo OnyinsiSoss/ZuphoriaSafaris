@@ -1,15 +1,9 @@
-import {
-  Container,
-  Heading,
-  NewLetter,
-  Section,
-} from "@/components";
+import { Container, Heading, NewLetter, Section } from "@/components";
 import AboutUsCarousel from "@/components/sections/about-us/AboutUsCarousel";
 import AboutUsCarousell from "@/components/sections/about-us/AboutUsCarousell";
 import Image from "next/image";
 import React from "react";
 import { FaInstagram } from "react-icons/fa6";
-
 
 const AboutUs = () => {
   return (
@@ -53,18 +47,18 @@ const AboutUs = () => {
           <div className="flex justify-center items-center flex-col gap-16">
             <Heading
               as="h2"
-              className="text-emerald-950 md:text-5xl text-center lg:text-7xl text-2xl font-[angella] leading-none"
+              className="text-emerald-950 md:text-5xl text-center lg:text-7xl text-3xl font-[angella] leading-none"
             >
               “Karibu! to Zuphoria
             </Heading>
-            <p className="text-slate-800 text-center text-2xl">
+            <p className="text-slate-800 text-center text-xl md:text-2xl">
               a travel companion rooted in the heart of Africa, Kenya. Our
               journey began with a simple yet profound idea: to share the
               beauty, diversity, and rich cultural tapestry of this incredible
               continent with the world.
             </p>
 
-            <p className="text-slate-800 text-center text-2xl ">
+            <p className="text-slate-800 text-center text-xl md:text-2xl ">
               Nestled in the vibrant landscapes of Kenya, we are more than just
               a tourism company; we are storytellers, weaving the tales of
               Africa’s wonders. From the majestic savannahs teeming with
@@ -77,7 +71,7 @@ const AboutUs = () => {
               <AboutUsCarousell />
             </div>
 
-            <p className="text-slate-800 text-center align-middle text-2xl  ">
+            <p className="text-slate-800 text-center align-middle text-xl md:text-2xl  ">
               What sets us apart is our commitment to responsible and
               sustainable travel. We believe in leaving a positive impact on the
               places we visit, supporting local communities, and preserving the
@@ -403,7 +397,7 @@ const AboutUs = () => {
           </div>
         </Container>
       </Section>
-      <Section className="">
+      <Section className=" bg-slate-300">
         <Container className="flex flex-col lg:flex-row gap-10">
           <div>
             <AboutUsCarousel />
@@ -421,6 +415,7 @@ const AboutUs = () => {
               Join us as we unlock the secrets of Kenya, revealing a world of
               warmth, hospitality, and awe-inspiring landscapes.
             </p>
+            
           </div>
         </Container>
       </Section>
@@ -432,4 +427,3 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
- 

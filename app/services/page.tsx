@@ -7,6 +7,7 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import { Features2 } from "@/components/sections/features/Features2";
 
 
 const Services = () => {
@@ -36,13 +37,12 @@ const Services = () => {
             />
             <div className="flex font-[angella] justify-center items-center h-full lg:text-8xl sm:text-6xl text-4xl text-white">
               <Heading as="h1" className="">
-                Our Services
+                Our Safaris
               </Heading>
             </div>
           </div>
         </div>
       </div>
-      <Section className="bg-slate-200">
         <Section className="lg:p-20 w-full ">
           <div className="flex justify-center items-center flex-col gap-8">
             <Heading
@@ -57,6 +57,7 @@ const Services = () => {
             </p>
           </div>
         </Section>
+        <Features2/>
 
         <Container className="m-auto p-10 ">
           <div>
@@ -148,8 +149,6 @@ const Services = () => {
             </div>
           </div>
         </Container>
-      </Section>
-
       <Section className="bg-slate-200">
         <Container className="m-auto p-6">
           <div>
