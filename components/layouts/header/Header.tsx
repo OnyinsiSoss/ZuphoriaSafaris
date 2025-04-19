@@ -17,6 +17,7 @@ export const Header = () => {
     setShowMenu((prev) => !prev);
   };
 
+
   const size = useWindScreenowSize();
 
   useEffect(() => {
@@ -28,8 +29,10 @@ export const Header = () => {
   return (
     <header
       className={cx(
-        "z-50  duration-300 bg-secondary-950 fixed w-full ",
-        scrollDir === "down" ? "-translate-y-full" : "translate-y-0 "
+        "z-50  duration-300 bg-transparent fixed w-full ",
+        scrollDir === "down"
+          ? "-translate-y-full bg-slate-300"
+          : "translate-y-0 "
       )}
     >
       <div className="w-screen px-12 flex justify-between items-center">
@@ -37,10 +40,13 @@ export const Header = () => {
           <Link href="/" className="z-20">
             <Image
               src="/images/logo.png"
-              width={120} height={60}  alt="Zuphoria"
-            />          
+              width={120}
+              height={60}
+              alt="Zuphoria"
+            />
           </Link>
           <nav
+            onClick={toggleMenu}
             className={cx(
               "list-none bg-green-950 sm:bg-transparent duration-300 sm:translate-y-0 absolute h-screen top-0 left-0 w-screen justify-center flex-col sm:relative sm:h-fit sm:w-fit sm:flex-row flex items-center text-white gap-2",
               showMenu === true ? "translate-y-0" : "-translate-y-full"
@@ -49,16 +55,21 @@ export const Header = () => {
             {headerData.header.map((item, index) => {
               return (
                 <li key={index} className="">
-                  <Link className="capitalize hover:text-amber-100" href={item.href}>
+                  <Link
+                    className="capitalize hover:text-amber-100"
+                    href={item.href}
+                  >
                     {item.label}
                   </Link>
                 </li>
               );
             })}
-            <Link rel="stylesheet" href="/contacts" > 
-            <Button variant="secondary" className="p-px uppercase"> Get in touch</Button>
+            <Link rel="stylesheet" href="/contacts">
+              <Button variant="secondary" className="p-px uppercase">
+                {" "}
+                Get in touch
+              </Button>
             </Link>
-            
           </nav>
         </div>
 
