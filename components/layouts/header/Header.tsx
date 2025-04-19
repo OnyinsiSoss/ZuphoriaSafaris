@@ -1,5 +1,5 @@
 "use client";
-import { Button, Menu } from "@/components/elements";
+import { Button, } from "@/components/elements";
 import headerData from "@/data/header.json";
 import { useWindScreenowSize } from "@/hooks/useWindowSize";
 import useDetectScroll from "@smakss/react-scroll-direction";
@@ -48,7 +48,7 @@ export const Header = () => {
           <nav
             onClick={toggleMenu}
             className={cx(
-              "list-none bg-green-950 sm:bg-transparent duration-300 sm:translate-y-0 absolute h-screen top-0 left-0 w-screen justify-center flex-col sm:relative sm:h-fit sm:w-fit sm:flex-row flex items-center text-white gap-2",
+              "list-none backdrop-blur-xl sm:bg-transparent duration-300 sm:translate-y-0 absolute h-screen top-0 left-0 w-screen justify-center flex-col sm:relative sm:h-fit sm:w-fit sm:flex-row flex items-center text-white gap-2",
               showMenu === true ? "translate-y-0" : "-translate-y-full"
             )}
           >
@@ -56,7 +56,7 @@ export const Header = () => {
               return (
                 <li key={index} className="">
                   <Link
-                    className="capitalize hover:text-amber-100"
+                    className="Uppercase hover:text-amber-100"
                     href={item.href}
                   >
                     {item.label}
@@ -76,9 +76,41 @@ export const Header = () => {
         <div className="flex h-fit z-10">
           <button
             onClick={toggleMenu}
-            className="p-3 flex items-center justify-center border border-white  w-fit sm:hidden rounded-full"
+            className="p-3 flex items-center justify-center w-fit sm:hidden"
           >
-            <Menu />
+            {showMenu ? (
+              // Close Icon
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2}
+                stroke="#fff"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            ) : (
+              // Hamburger Icon
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2}
+                stroke="#fff"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            )}
           </button>
         </div>
       </div>
