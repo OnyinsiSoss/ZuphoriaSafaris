@@ -1,13 +1,8 @@
- import {
-  Container,
-  Heading,
-  NewLetter1,
-  Section,
-} from "@/components";
+import { Container, Heading, NewLetter1, Section } from "@/components";
 import Image from "next/image";
 import React from "react";
-import Link from "next/link";
-
+// import Link from "next/link";
+import ExperienceData from "@/data/experiences.json";
 
 const Services = () => {
   return (
@@ -18,6 +13,7 @@ const Services = () => {
             style={{
               height: "100vh",
               zIndex: -40,
+              overflow: "hidden",
               background:
                 "linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .5))",
             }}
@@ -43,159 +39,55 @@ const Services = () => {
         </div>
       </div>
       <Section className="bg-white">
-        <Container className="m-auto p-5 sm:px-18 md:px-12 lg:px-36">
-          <div className=" ">
+        <Container className="">
+          <div className=" flex flex-col gap-8">
             <Heading
               as="h2"
-              className="text-3xl m-12 text-center text-emerald-900 "
+              className="text-emerald-900 text-center lg:text-7xl text-5xl font-[angella] leading-none "
             >
               Our Collected Safaris Experiences
             </Heading>
-          </div>
-          <div className="grid sm:mt-24 grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="flex group flex-col gap-8">
-              <div className="aspect-video rounded-xl overflow-hidden h-[200px] ">
-                <Link href="/blog/a">
-                  <Image
-                    src="/images/Pic-9.jpg"
-                    alt="Blog A"
-                    width={330}
-                    height={330}
-                    className="w-full h-full group-hover:scale-110 duration-300 object-cover"
-                  />
-                </Link>
-              </div>
-              <div>
-                <div>
-                  <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
-                    <Link href="/service/a">Bird Watching</Link>
-                  </Heading>
-                  <p className="text-neutral-900 text-xl">
-                    come see the epic widerbeast migration from the serengeti to
-                    the mara through the mara river, at the jaws of the mara
-                    crocodile and the big cats.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="flex group flex-col gap-8">
-              <div className="aspect-video rounded-xl overflow-hidden h-[200px] ">
-                <Image
-                  src="/images/Pic-9.jpg"
-                  alt="Blog A"
-                  width={330}
-                  height={330}
-                  className="w-full h-full group-hover:scale-110 duration-300 object-cover"
-                />
-              </div>
-              <div>
-                <div>
-                  <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
-                    Hot air Ballon
-                  </Heading>
-                  <p className="text-neutral-900 text-xl">
-                    Solar energy is revolutionizing the way we power our world.
-                    In this blog post,sustainable energy source for a brighter
-                    future.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="flex group flex-col gap-8">
-              <div className="aspect-video rounded-xl overflow-hidden h-[200px] ">
-                <Image
-                  src="/images/Pic-9.jpg"
-                  alt="Blog A"
-                  width={330}
-                  height={330}
-                  className="w-full h-full group-hover:scale-110 duration-300 object-cover"
-                />
-              </div>
-              <div>
-                <div>
-                  <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
-                    Night Game-Drives
-                  </Heading>
-                  <p className="text-neutral-900 text-xl">
-                    Solar energy is revolutionizing the way we power our world.
-                    In this blog post,sustainable energy source for a brighter
-                    future.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="flex group flex-col gap-8">
-              <div className="aspect-video rounded-xl overflow-hidden h-[200px] ">
-                <Image
-                  src="/images/Pic-9.jpg"
-                  alt="Blog A"
-                  width={330}
-                  height={330}
-                  className="w-full h-full group-hover:scale-110 duration-300 object-cover"
-                />
-              </div>
-              <div>
-                <div>
-                  <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
-                    Mountain Climbing
-                  </Heading>
-                  <p className="text-neutral-900 text-xl">
-                    Solar energy is revolutionizing the way we power our world.
-                    In this blog post,sustainable energy source for a brighter
-                    future.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="flex group flex-col gap-8">
-              <div className="aspect-video rounded-xl overflow-hidden h-[200px] ">
-                <Image
-                  src="/images/Pic-9.jpg"
-                  alt="Blog A"
-                  width={330}
-                  height={330}
-                  className="w-full h-full group-hover:scale-110 duration-300 object-cover"
-                />
-              </div>
-              <div>
-                <div>
-                  <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
-                    Geothermal Natural Spas
-                  </Heading>
-                  <p className="text-neutral-900 text-xl">
-                    Solar energy is revolutionizing the way we power our world.
-                    In this blog post,sustainable energy source for a brighter
-                    future.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="flex group flex-col gap-8">
-              <div className="aspect-video rounded-xl overflow-hidden h-[200px] ">
-                <Image
-                  src="/images/Pic-9.jpg"
-                  alt="Blog A"
-                  width={330}
-                  height={330}
-                  className="w-full h-full group-hover:scale-110 duration-300 object-cover"
-                />
-              </div>
-              <div>
-                <div>
-                  <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
-                    Cultural Encounters
-                  </Heading>
-                  <p className="text-neutral-900 text-xl">
-                    Solar energy is revolutionizing the way we power our world.
-                    In this blog post,sustainable energy source for a brighter
-                    future.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <p className="text-slate-800 text-xl">
+              &quot;We offer a full range of travel experiences for every type
+              of traveler. From luxurious two-week safaris to short stay
+              safaris, from gorilla trekking to beach holidays and everything in
+              between, Zuphoria Safaris draws on our deep local knowledge and
+              expert staff to bring you a once-in-a-lifetime experience. Our
+              customizable, interest-driven packages can include any of the
+              following experiences.
+            </p>
           </div>
         </Container>
+        <Container className="grid sm:mt-24 mt-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {ExperienceData.experiences.map((item, index) => {
+            return (
+              <div key={index} className="flex group flex-col gap-8">
+                <div className="aspect-video rounded-xl overflow-hidden h-[200px] ">
+                    <Image
+                      src={item.expimg}
+                      alt={item.label}
+                      width={330}
+                      height={330}
+                      className="w-full h-full group-hover:scale-110 duration-300 object-cover"
+                    />
+                  </div>
+                  <div>
+                    <div>
+                      <Heading
+                        as="h3"
+                        className="text-emerald-900 text-2xl mb-4"
+                      >
+                        {item.label}
+                      </Heading>
+                      <p className="text-neutral-900 text-xl">{item.brief}</p>
+                    </div>
+                 </div>
+              </div>
+            );
+          })}
+        </Container>
       </Section>
+        
       <div className="">
         <NewLetter1 />
       </div>
@@ -214,4 +106,3 @@ const Services = () => {
 };
 
 export default Services;
- 

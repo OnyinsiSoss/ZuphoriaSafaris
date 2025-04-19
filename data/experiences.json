@@ -1,0 +1,71 @@
+{
+  "experiences": [
+    {
+      "label": "Jeep Safaris",
+      "expimg": "/images/Pic-9.JPG",
+      "brief":"Explore the African bush in a 4 X 4 all-wheel drive Cruiser with a high platform designed for spotting wildlife and greater suspension for off-road terrain. There’s even a pop-up top so you’ll have 360-degree views as your Zuphoria Safari guide navigates his way up hills, across streams, and through the sweeping East African savanna"
+    },
+    {      
+      "label": "Bird Watching safaris",
+      "expimg": "/images/Pic-9.JPG",
+      "brief":""
+    },
+    {
+      "label": "Hot Air Ballon Safaris",
+      "expimg": "/images/Pic-9.JPG",
+      "brief":""
+    },
+    {
+      "label": "Photographic Safari Drives",
+      "expimg": "/images/Pic-9.JPG",
+      "brief":""
+      
+    },
+    {
+      "label": "Honeymoon Safari",
+      "expimg": "/images/Pic-9.JPG",
+      "brief":""
+    },
+    {
+      "label": "Noght Safari Drives",
+      "expimg": "/images/Pic-9.JPG",
+      "brief":""
+    },
+    {
+      "label": "Rhino Hi-tech Tracking",
+      "expimg": "/images/Pic-9.JPG",
+      "brief":""
+    },
+    {
+      "label": "East Africas Mountain Climbing",
+      "expimg": "/images/Pic-9.JPG",
+      "brief":""
+    },
+    {
+      "label": "Great Wilderbeast Migration",
+      "expimg": "/images/Pic-9.JPG",
+      "brief":""
+    },
+    {
+      "label": "Swahili coast",
+      "expimg": "/images/Pic-9.JPG",
+      "brief":""
+    },
+    {
+      "label": "fly-in Safari",
+      "expimg": "/images/Pic-9.JPG",
+      "brief":""
+    },
+    {
+      "label": "Gorilla Trekking",
+      "expimg": "/images/Pic-9.JPG",
+      "brief":""
+    },
+    {
+      "label": "Maasai villages",
+      "expimg": "/images/Pic-9.JPG",
+      "brief":""
+    }
+
+  ]
+}
