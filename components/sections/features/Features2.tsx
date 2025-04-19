@@ -10,9 +10,9 @@ export const Features2 = () => {
           <div className=" flex flex-col gap-8">
             <Heading
               as="h2"
-              className="text-emerald-900 md:text-5xl lg:text-8xl text-3xl font-[angella] leading-none "
+              className="text-emerald-900 md:text-5xl text-center lg:text-8xl text-3xl font-[angella] leading-none "
             >
-              Explore Our Safari Collections
+               Our Safari Collections
             </Heading>
             <p className="text-slate-800 text-xl">
               We create personalised safaris in Kenya and across Eastern Africa,

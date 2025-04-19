@@ -1,7 +1,8 @@
-import { Container, Heading, NewLetter, Section } from "@/components";
+import { Button, Container, Heading, NewLetter, Section } from "@/components";
 import AboutUsCarousel from "@/components/sections/about-us/AboutUsCarousel";
 import AboutUsCarousell from "@/components/sections/about-us/AboutUsCarousell";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { FaInstagram } from "react-icons/fa6";
 
@@ -402,7 +403,7 @@ const AboutUs = () => {
           <div>
             <AboutUsCarousel />
           </div>
-          <div className="flex flex-col m-auto gap-16">
+          <div className="flex flex-col m-auto items-center gap-16">
             <p className="text-slate-800 text-center align-middle text-xl  ">
               We don’t just organize trips; we craft experiences. Whether you
               dream of embarking on a safari, exploring ancient cultures, or
@@ -415,6 +416,14 @@ const AboutUs = () => {
               Join us as we unlock the secrets of Kenya, revealing a world of
               warmth, hospitality, and awe-inspiring landscapes.
             </p>
+            <Link rel="stylesheet" href="/services">
+                        <Button
+                          className="uppercase p-8"
+                          variant="primary"
+                        >
+                          Explore our Safari collection
+                        </Button>
+                      </Link>
             
           </div>
         </Container>

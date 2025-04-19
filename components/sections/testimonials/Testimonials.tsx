@@ -9,7 +9,7 @@ export const Testimonials = () => {
   const size = useWindScreenowSize();
   console.log(size.width);
   return (
-    <Section className="bg-emerald-700 rounded-3xl  py-48">
+    <Section className="bg-slate-300 rounded-3xl  py-48">
       <Container className="flex flex-col items-center ">
         <SubTitle subTitle="Testimonials" />
 

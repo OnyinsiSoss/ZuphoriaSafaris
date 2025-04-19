@@ -9,7 +9,10 @@ export const OurExpert = () => {
       <Container className="">
         <div>
           <div className="flex flex-col gap-4">
-            <SubTitle className="text-emerald-950" subTitle="Meet our Team" />
+            <SubTitle
+              className="text-emerald-900 md:text-5xl lg:text-8xl text-3xl font-[angella] leading-none capitalize"
+              subTitle="Meet our Team"
+            />
 
             <p className="text-stone-800 text-xl">
               Our team boasts top safari enthusiasts, driving innovation in
@@ -18,12 +21,12 @@ export const OurExpert = () => {
           </div>
           <div className="mt-20">
             <div className="py-8 border-b flex gap-12 items-center border-neutral-700">
-              <div className="h-[90px] w-[90px] shrink-0 relative">
+              <div className="h-[150px] w-[150px] shrink-0 relative">
                 <Image
                   src="/images/brian.jpg"
                   alt="Expert Image"
-                  width={90}
-                  height={90}
+                  width={150}
+                  height={150}
                   className="w-full h-full object-cover rounded-xl"
                 />
               </div>
@@ -112,7 +115,7 @@ export const OurExpert = () => {
               <div className="flex flex-col gap-2 sm:flex-row justify-between w-full">
                 <div className="text-white flex flex-col sm:flex-row sm:gap-32">
                   <Heading as="h3" className="text-xl text-emerald-950">
-                    Mumbi Kimani
+                    Mumbi Wanjohi
                   </Heading>
                   <p className="text-neutral-800">
                     Senior Destination Consultant

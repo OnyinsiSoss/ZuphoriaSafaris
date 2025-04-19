@@ -6,7 +6,6 @@ export const Features = () => {
   return (
     <Section className="">
       <Container className=" ">
-        {/* <SubTitle subTitle="Services" className=" " /> */}
         <div className=" flex flex-col gap-16">
           <div className=" flex flex-col gap-8">
             <Heading
@@ -21,7 +20,7 @@ export const Features = () => {
               adventure, our expert team will be with you all the way!
             </p>
           </div>
-          <div className="flex flex-col justify-center  lg:flex-row gap-10 m-auto ">
+          <div className="flex flex-col justify-center  lg:flex-row gap-2 m-auto ">
             <div
               style={{
                 height: "450px",
@@ -35,14 +34,14 @@ export const Features = () => {
                 alt="Member"
                 width={320}
                 height={450}
-                className="w-full h-fit group-hover:scale-110 duration-300 absolute -z-10 object-cover bg-center "
+                className="w-full h-full group-hover:scale-110 duration-300 absolute -z-10 object-cover bg-center "
               />
-              <div className="flex flex-col justify-between overflow-hidden p-8 ">
+              <div className="flex flex-col justify-between overflow-hidden p-4 ">
                 <Heading
                   as="h2"
                   className="text-6xl font-[angella] leading-none text-white"
                 >
-                  Safaris
+                  Kenya Safaris
                 </Heading>
                 <div className="flex flex-col gap-4 text-white ">
                   <p>
@@ -70,14 +69,14 @@ export const Features = () => {
                 alt="Member"
                 width={320}
                 height={450}
-                className="w-full h-fit group-hover:scale-110 duration-300 absolute -z-10 object-cover "
+                className="w-full h-full group-hover:scale-110 duration-300 absolute -z-10 object-cover "
               />
-              <div className="flex justify-between flex-col overflow-hidden p-8">
+              <div className="flex justify-between flex-col overflow-hidden p-4">
                 <Heading
                   as="h2"
                   className="text-6xl  font-[angella] leading-none text-white"
                 >
-                  Accomodation
+                  East Africa Safaris
                 </Heading>
                 <div className="flex flex-col text-white justify-between gap-4  ">
                   <p>
@@ -86,7 +85,7 @@ export const Features = () => {
                     trip thats right for you!
                   </p>
                   <Button variant="secondary" className="p-px  uppercase">
-                    <Link href="/services/accomodation">learn more</Link>
+                    <Link href="/services/EastAfrica">learn more</Link>
                   </Button>
                 </div>
               </div>
@@ -105,9 +104,9 @@ export const Features = () => {
                 alt="Member"
                 width={320}
                 height={450}
-                className="w-full h-fit group-hover:scale-110 duration-300 absolute -z-10 object-cover overflow-hidden "
+                className="w-full h-full group-hover:scale-110 duration-300 absolute -z-10 object-cover overflow-hidden "
               />
-              <div className="flex flex-col justify-between overflow-hidden p-8 ">
+              <div className="flex flex-col justify-between overflow-hidden p-4 ">
                 <Heading
                   as="h2"
                   className="text-6xl  font-[angella] overflow-hidden  leading-none text-white"
@@ -122,6 +121,41 @@ export const Features = () => {
                   </p>
                   <Button variant="secondary" className="p-px  uppercase">
                     <Link href="/services/experiences">learn more</Link>
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style={{
+                height: "450px",
+                background:
+                  "linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3))",
+              }}
+              className="flex group relative rounded-xl  overflow-hidden "
+            >
+              <Image
+                src="/images/Pic-209.JPG"
+                alt="Member"
+                width={320}
+                height={450}
+                className="w-full h-full group-hover:scale-110 duration-300 absolute -z-10 object-cover overflow-hidden "
+              />
+              <div className="flex flex-col justify-between overflow-hidden p-4 ">
+                <Heading
+                  as="h2"
+                  className="text-6xl  font-[angella] overflow-hidden  leading-none text-white"
+                >
+                  Beyond East Africa
+                </Heading>
+                <div className="flex flex-col text-white justify-between gap-4 cursor-pointer">
+                  <p>
+                    Are you ready to go? We have created many experiences for
+                    you, with our Safari Experts and Tour Leaders. Choose the
+                    trip thats right for you!
+                  </p>
+                  <Button variant="secondary" className="p-px  uppercase">
+                    <Link href="/services/beyond">learn more</Link>
                   </Button>
                 </div>
               </div>

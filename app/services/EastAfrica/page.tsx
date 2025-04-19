@@ -7,13 +7,12 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import { Features2 } from "@/components/sections/features/Features2";
 
 
 const Services = () => {
   return (
     <React.Fragment>
-      <div className="m-auto ">
+      <div className="m-auto">
         <div className="">
           <div
             style={{
@@ -25,7 +24,7 @@ const Services = () => {
           >
             <Image
               alt="about-us"
-              src="/images/Pic-23.JPG"
+              src="/images/Pic-85.JPG"
               quality={100}
               fill
               sizes="100vw"
@@ -35,47 +34,56 @@ const Services = () => {
                 zIndex: -50,
               }}
             />
-            <div className="flex font-[angella] justify-center items-center h-full lg:text-8xl sm:text-6xl text-4xl text-white">
+            <div className="flex flex-col font-[angella] justify-center items-center h-full md:text-7xl lg:text-8xl text-5xl  text-white">
               <Heading as="h1" className="">
-                Our Safaris
+                East Africa Safaris
               </Heading>
             </div>
           </div>
         </div>
       </div>
-      {/* <Section className="lg:p-20 w-full ">
-        <div className="flex justify-center items-center flex-col gap-8">
-          <Heading
-            as="h2"
-            className="text-emerald-900 md:text-5xl text-center lg:text-8xl text-3xl font-[angella] leading-none capitalize"
-          >
-            Let us build your dream vacation
-          </Heading>
-          <p className="text-slate-800 text-center text-2xl px-6  ">
-            Zuphoria Safaris will guide you through an extraordinary safari
-            adventure in Africa.
-          </p>
-        </div>
-      </Section> */}
-      <Features2 />
-
-      <Container className="m-auto p-10 ">
-        <div>
-          <div className="w-full flex justify-between items-center">
-            <Heading
-              as="h2"
-              className="text-3xl leading-none text-emerald-900 "
-            >
-              Safaris Destination
-            </Heading>
-            <button className="border px-6 py-3 rounded-full border-emerald-900 text-emerald-900">
-              <Link href="/services/destination">See More</Link>
-            </button>
-          </div>
-          <div className="grid mt-12 sm:mt-24 grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10">
-            <div className="flex group flex-col gap-8">
-              <div className="aspect-video rounded-xl overflow-hidden h-[360px] ">
-                <Link href="/services/destination">
+      <Section className="">
+        <Container className="m-auto p-5 md:p-16 lg:px-24">
+          <div>
+            <div className="w-full flex justify-between items-center">
+              <Heading
+                as="h2"
+                className="text-3xl leading-none text-emerald-900 "
+              >
+                Rwanda
+              </Heading>
+              <button className="border px-6 py-3 rounded-full border-emerald-900 text-emerald-900">
+                <Link href="/blog">See More</Link>
+              </button>
+            </div>
+            <div className="grid sm:mt-24 grid-cols-1 lg:grid-cols-3 gap-6">
+              <div className="flex group flex-col gap-8">
+                <div className="aspect-video rounded-xl overflow-hidden h-[360px] ">
+                  <Link href="/blog/a">
+                    <Image
+                      src="/images/Pic-9.jpg"
+                      alt="Blog A"
+                      width={330}
+                      height={330}
+                      className="w-full h-full group-hover:scale-110 duration-300 object-cover"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <div>
+                    <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
+                      <Link href="/service/a">Masaai Mara</Link>
+                    </Heading>
+                    <p className="text-neutral-900 text-xl">
+                      come see the epic widerbeast migration from the serengeti
+                      to the mara through the mara river, at the jaws of the
+                      mara crocodile and the big cats.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex group flex-col gap-8">
+                <div className="aspect-video rounded-xl overflow-hidden h-[360px] ">
                   <Image
                     src="/images/Pic-9.jpg"
                     alt="Blog A"
@@ -83,87 +91,65 @@ const Services = () => {
                     height={330}
                     className="w-full h-full group-hover:scale-110 duration-300 object-cover"
                   />
-                </Link>
-              </div>
-              <div>
+                </div>
                 <div>
-                  <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
-                    <Link href="/service/a">Masaai Mara</Link>
-                  </Heading>
-                  <p className="text-neutral-900 text-xl">
-                    Come see the epic widerbeast migration from the serengeti to
-                    the mara through the mara river, at the jaws of the mara
-                    crocodile and the big cats.
-                  </p>
+                  <div>
+                    <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
+                      Harnessing the Power of the Sun: Exploring the World of
+                      Solar Energy
+                    </Heading>
+                    <p className="text-neutral-900 text-xl">
+                      Solar energy is revolutionizing the way we power our
+                      world. In this blog post,sustainable energy source for a
+                      brighter future.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="flex group flex-col gap-8">
-              <div className="aspect-video rounded-xl overflow-hidden h-[360px] ">
-                <Image
-                  src="/images/Pic-9.jpg"
-                  alt="Blog A"
-                  width={330}
-                  height={330}
-                  className="w-full h-full group-hover:scale-110 duration-300 object-cover"
-                />
-              </div>
-              <div>
-                <div>
-                  <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
-                    Harnessing the Power of the Sun: Exploring the World of
-                    Solar Energy
-                  </Heading>
-                  <p className="text-neutral-900 text-xl">
-                    Solar energy is revolutionizing the way we power our world.
-                    In this blog post,sustainable energy source for a brighter
-                    future.
-                  </p>
+              <div className="flex group flex-col gap-8">
+                <div className="aspect-video rounded-xl overflow-hidden h-[360px] ">
+                  <Image
+                    src="/images/Pic-9.jpg"
+                    alt="Blog A"
+                    width={330}
+                    height={330}
+                    className="w-full h-full group-hover:scale-110 duration-300 object-cover"
+                  />
                 </div>
-              </div>
-            </div>
-            <div className="flex group flex-col gap-8">
-              <div className="aspect-video rounded-xl overflow-hidden h-[360px] ">
-                <Image
-                  src="/images/Pic-9.jpg"
-                  alt="Blog A"
-                  width={330}
-                  height={330}
-                  className="w-full h-full group-hover:scale-110 duration-300 object-cover"
-                />
-              </div>
-              <div>
                 <div>
-                  <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
-                    Harnessing the Power of the Sun: Exploring the World of
-                    Solar Energy
-                  </Heading>
-                  <p className="text-neutral-900 text-xl">
-                    Solar energy is revolutionizing the way we power our world.
-                    In this blog post,sustainable energy source for a brighter
-                    future.
-                  </p>
+                  <div>
+                    <Heading as="h3" className="text-emerald-900 text-2xl mb-4">
+                      Harnessing the Power of the Sun: Exploring the World of
+                      Solar Energy
+                    </Heading>
+                    <p className="text-neutral-900 text-xl">
+                      Solar energy is revolutionizing the way we power our
+                      world. In this blog post,sustainable energy source for a
+                      brighter future.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </Container>
+        </Container>
+      </Section>
+
       <Section className="bg-slate-200">
-        <Container className="m-auto p-6">
+        <Container className="m-auto px-24">
           <div>
             <div className="w-full flex justify-between items-center">
               <Heading
                 as="h2"
                 className="text-3xl leading-none text-emerald-900"
               >
-                Safaris Accomodations
+                Conservancies
               </Heading>
               <button className="border px-6 py-3 rounded-full border-emerald-900 text-merald-900">
-                <Link href="/services/accomodation">See More</Link>
+                <Link href="/blog">See More</Link>
               </button>
             </div>
-            <div className="grid mt-12 sm:mt-24 grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10">
+            <div className="grid mt-12 sm:mt-24 grid-cols-1 md:grid-cols-3 gap-6">
               <div className="flex group flex-col gap-8">
                 <div className="aspect-video rounded-xl overflow-hidden h-[360px] ">
                   <Link href="/blog/a">
@@ -248,20 +234,20 @@ const Services = () => {
       </Section>
 
       <Section className="bg-slate-200">
-        <Container className="m-auto p-6">
+        <Container className="m-auto px-24">
           <div>
             <div className="w-full flex justify-between items-center">
               <Heading
                 as="h2"
                 className="text-3xl leading-none text-emerald-900"
               >
-                Experiences
+                Uganda
               </Heading>
               <button className="border px-6 py-3 rounded-full border-emerald-900 text-emerald900">
-                <Link href="/services/experiences">See More</Link>
+                <Link href="/blog">See More</Link>
               </button>
             </div>
-            <div className="grid mt-12 sm:mt-24 grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10">
+            <div className="grid mt-12 sm:mt-24 grid-cols-1 md:grid-cols-3 gap-6">
               <div className="flex group flex-col gap-8">
                 <div className="aspect-video rounded-xl overflow-hidden h-[360px] ">
                   <Link href="/blog/a">
@@ -293,7 +279,7 @@ const Services = () => {
               <div className="flex group flex-col gap-8">
                 <div className="aspect-video rounded-xl overflow-hidden h-[360px] ">
                   <Image
-                    src="/images/Pic-9.jpg"
+                    src="/images/Pic-41.JPG"
                     alt="Blog A"
                     width={330}
                     height={330}
@@ -410,8 +396,27 @@ const Services = () => {
           </div>
         </Container>
              </Section> */}
+      <Section className="bg-slate-300 w-full ">
+        <div className="flex justify-center items-center flex-col gap-8">
+          <Heading
+            as="h2"
+            className="md:px-32 px-8 text-5xl xl:text-5xl leading-none text-gray-900 text-center capitalize"
+          >
+            Let us build your dream vacation
+          </Heading>
+          <p className="text-slate-800 text-center text-2xl px-6 sm:px-60  ">
+            Let Zuphoria Safaris guide you through an extraordinary safari
+            adventure in Africa.
+          </p>
+          <button className="border px-6 py-3 rounded-full border-emerald-900 text-emerald900">
+            <Link href="/contacts">Enquire Now</Link>
+          </button>
+        </div>
+      </Section>
 
-      <NewLetter />
+      <div className="">
+        <NewLetter />
+      </div>
     </React.Fragment>
   );
 };
